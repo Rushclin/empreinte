@@ -1,0 +1,11 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "Pinterest",
+  "url": "https://www.pinterest.com/{}/",
+  "urlMain": "https://www.pinterest.com/",
+  "urlProbe": "https://www.pinterest.com/oembed.json?url=https://www.pinterest.com/{}/",
+  "errorType": "status_code",
+  "username_claimed": "blue",
+  "tags": ["social", "photo"],
+  "isNSFW": false
+}

@@ -1,0 +1,11 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "Bluesky",
+  "url": "https://bsky.app/profile/{}.bsky.social",
+  "urlMain": "https://bsky.app/",
+  "urlProbe": "https://public.api.bsky.app/xrpc/app.bsky.actor.getProfile?actor={}.bsky.social",
+  "errorType": "status_code",
+  "username_claimed": "mcuban",
+  "tags": ["social"],
+  "isNSFW": false
+}

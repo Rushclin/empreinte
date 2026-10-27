@@ -1,0 +1,13 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "TikTok",
+  "url": "https://www.tiktok.com/@{}",
+  "urlMain": "https://www.tiktok.com/",
+  "urlProbe": "https://www.tiktok.com/oembed?url=https://www.tiktok.com/@{}",
+  "errorType": "status_code",
+  "regexCheck": "^[a-zA-Z0-9_.]{2,24}$",
+  "username_claimed": "charlidamelio",
+  "request_method": "GET",
+  "tags": ["social", "video"],
+  "isNSFW": false
+}

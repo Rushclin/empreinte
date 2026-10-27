@@ -1,0 +1,10 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "Keybase",
+  "url": "https://keybase.io/{}",
+  "urlMain": "https://keybase.io/",
+  "errorType": "status_code",
+  "username_claimed": "blue",
+  "tags": ["security"],
+  "isNSFW": false
+}

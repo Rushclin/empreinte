@@ -20,9 +20,9 @@ const isValidRegex = (pattern: string): boolean => {
 };
 
 const urlTemplate = (what: string) =>
-  z.url({ protocol: /^https?$/ }).refine((value) => value.includes("{}"), {
-    message: `${what} must contain the "{}" placeholder for the username`,
-  });
+  z
+    .url({ protocol: /^https?$/ })
+    .regex(/\{\}/, `${what} must contain the "{}" placeholder for the username`);
 
 /** Schema of one file in `sites/`. This is the single source of truth for the site format. */
 export const SiteSchema = z

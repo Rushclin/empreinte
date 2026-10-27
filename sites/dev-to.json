@@ -1,0 +1,11 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "Dev.to",
+  "url": "https://dev.to/{}",
+  "urlMain": "https://dev.to/",
+  "errorType": "status_code",
+  "regexCheck": "^[a-zA-Z][a-zA-Z0-9_-]*$",
+  "username_claimed": "blue",
+  "tags": ["dev", "blogging"],
+  "isNSFW": false
+}

@@ -1,0 +1,12 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "Hacker News",
+  "url": "https://news.ycombinator.com/user?id={}",
+  "urlMain": "https://news.ycombinator.com/",
+  "urlProbe": "https://hn.algolia.com/api/v1/users/{}",
+  "errorType": "status_code",
+  "regexCheck": "^[a-zA-Z0-9_-]{2,15}$",
+  "username_claimed": "pg",
+  "tags": ["dev", "news"],
+  "isNSFW": false
+}

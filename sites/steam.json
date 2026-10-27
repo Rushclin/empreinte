@@ -1,0 +1,11 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "Steam",
+  "url": "https://steamcommunity.com/id/{}/",
+  "urlMain": "https://steamcommunity.com/",
+  "errorType": "message",
+  "errorMsg": "The specified profile could not be found",
+  "username_claimed": "blue",
+  "tags": ["gaming"],
+  "isNSFW": false
+}

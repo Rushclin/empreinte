@@ -1,0 +1,12 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "GitLab",
+  "url": "https://gitlab.com/{}",
+  "urlMain": "https://gitlab.com/",
+  "urlProbe": "https://gitlab.com/api/v4/users?username={}",
+  "errorType": "message",
+  "errorMsg": "[]",
+  "username_claimed": "blue",
+  "tags": ["dev"],
+  "isNSFW": false
+}
