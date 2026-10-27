@@ -3,7 +3,7 @@
   "name": "Vero",
   "url": "https://vero.co/{}",
   "urlMain": "https://vero.co/",
-  "errorType": "message",
+  "errorType": ["message", "status_code"],
   "errorMsg": "Not Found",
   "username_claimed": "blue",
   "request_method": "GET",

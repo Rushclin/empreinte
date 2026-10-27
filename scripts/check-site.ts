@@ -6,13 +6,14 @@
  *   - with a random 20-character username, which must be reported as "available"
  *
  * Usage:
- *   pnpm check-site sites/github.json sites/reddit.json
+ *   pnpm check-site sites/github.json sites/gitlab.json
  *   pnpm check-site GitHub "Hacker News"
  *   pnpm check-site --all [--markdown] [--timeout 20] [--proxy http://...]
  *
  * Exits with code 1 if any site fails.
  */
 import { randomInt } from "node:crypto";
+import { setTimeout } from "node:timers/promises";
 import { parseArgs } from "node:util";
 import pLimit from "p-limit";
 import {
@@ -24,7 +25,11 @@ import {
 import { listSiteFiles, readSiteFile, resolveSiteArgs } from "./lib/sites.js";
 
 const RANDOM_LENGTH = 20;
+const RETRIES = 2;
+const RETRY_DELAY_MS = 2_000;
 const ALPHABET = "abcdefghijklmnopqrstuvwxyz0123456789";
+/** Tried in this order: some sites require a separator (e.g. ResearchGate: `\w+_\w+`). */
+const SEPARATORS = ["", "_", "-", "."];
 
 /**
  * A random username that the site accepts (`regexCheck`). Starts at 20 characters and
@@ -32,12 +37,18 @@ const ALPHABET = "abcdefghijklmnopqrstuvwxyz0123456789";
  */
 export function randomUsername(site: Pick<Site, "regexCheck">): string {
   const regex = site.regexCheck ? new RegExp(site.regexCheck) : undefined;
-  for (let length = RANDOM_LENGTH; length >= 3; length--) {
-    for (let attempt = 0; attempt < 20; attempt++) {
-      // A letter first: many sites require usernames to start with one.
-      let candidate = ALPHABET[randomInt(26)] ?? "a";
-      while (candidate.length < length) candidate += ALPHABET[randomInt(ALPHABET.length)];
-      if (!regex || regex.test(candidate)) return candidate;
+  for (const separator of SEPARATORS) {
+    for (let length = RANDOM_LENGTH; length >= 3; length--) {
+      for (let attempt = 0; attempt < 20; attempt++) {
+        // A letter first: many sites require usernames to start with one.
+        let candidate = ALPHABET[randomInt(26)] ?? "a";
+        while (candidate.length < length) candidate += ALPHABET[randomInt(ALPHABET.length)];
+        if (separator) {
+          const middle = Math.floor(length / 2);
+          candidate = `${candidate.slice(0, middle)}${separator}${candidate.slice(middle + 1)}`;
+        }
+        if (!regex || regex.test(candidate)) return candidate;
+      }
     }
   }
   throw new Error(`Cannot generate a random username matching ${site.regexCheck}`);
@@ -70,13 +81,25 @@ async function checkFile(
     return { file: entry.file, name: file, errors: entry.errors, probes: [], ok: false };
   }
   const site = entry.site;
+  let random: string;
+  try {
+    random = randomUsername(site);
+  } catch (error) {
+    const message = error instanceof Error ? error.message : String(error);
+    return { file: entry.file, name: site.name, errors: [message], probes: [], ok: false };
+  }
   const cases: Array<[string, SiteStatus]> = [
     [site.username_claimed, "claimed"],
-    [randomUsername(site), "available"],
+    [random, "available"],
   ];
   const probes: Probe[] = [];
   for (const [username, expected] of cases) {
-    const result = await checkSite(site, username, { ...options, debug: true });
+    let result = await checkSite(site, username, { ...options, debug: true });
+    // Network errors and timeouts are often transient: retry them before reporting a failure.
+    for (let retry = 0; retry < RETRIES && result.status === "unknown"; retry++) {
+      await setTimeout(RETRY_DELAY_MS);
+      result = await checkSite(site, username, { ...options, debug: true });
+    }
     probes.push({ username, expected, result, ok: result.status === expected });
   }
   return {
