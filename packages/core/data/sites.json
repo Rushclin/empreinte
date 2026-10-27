@@ -3221,15 +3221,6 @@
     "isNSFW": false
   },
   {
-    "name": "Pornhub",
-    "url": "https://pornhub.com/users/{}",
-    "urlMain": "https://pornhub.com/",
-    "errorType": "status_code",
-    "username_claimed": "blue",
-    "tags": [],
-    "isNSFW": true
-  },
-  {
     "name": "pr0gramm",
     "url": "https://pr0gramm.com/user/{}",
     "urlMain": "https://pr0gramm.com/",
@@ -4608,26 +4599,6 @@
     "isNSFW": false
   },
   {
-    "name": "YouNow",
-    "url": "https://www.younow.com/{}/",
-    "urlMain": "https://www.younow.com/",
-    "urlProbe": "https://api.younow.com/php/api/broadcast/info/user={}/",
-    "errorType": "message",
-    "errorMsg": "No users found",
-    "username_claimed": "blue",
-    "tags": [],
-    "isNSFW": false
-  },
-  {
-    "name": "YouPic",
-    "url": "https://youpic.com/photographer/{}/",
-    "urlMain": "https://youpic.com/",
-    "errorType": "status_code",
-    "username_claimed": "blue",
-    "tags": [],
-    "isNSFW": false
-  },
-  {
     "name": "YouTube",
     "url": "https://www.youtube.com/@{}",
     "urlMain": "https://www.youtube.com/",
@@ -4636,15 +4607,6 @@
     "tags": [
       "video"
     ],
-    "isNSFW": false
-  },
-  {
-    "name": "znanylekarz.pl",
-    "url": "https://www.znanylekarz.pl/{}",
-    "urlMain": "https://znanylekarz.pl",
-    "errorType": "status_code",
-    "username_claimed": "janusz-nowak",
-    "tags": [],
     "isNSFW": false
   }
 ]
