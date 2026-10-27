@@ -1,0 +1,36 @@
+name: Comment site report
+
+# Posts the report of validate-sites.yml on the pull request. Runs in the context of the
+# base repository (write access) but never checks out or executes code from the pull request.
+on:
+  workflow_run:
+    workflows: ["Validate sites"]
+    types: [completed]
+
+permissions:
+  pull-requests: write
+  actions: read
+
+jobs:
+  comment:
+    runs-on: ubuntu-latest
+    if: github.event.workflow_run.event == 'pull_request'
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: site-report
+          run-id: ${{ github.event.workflow_run.id }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Read pull request number
+        id: pr
+        run: |
+          number=$(head -c 10 pr-number.txt | tr -cd '0-9')
+          if [ -z "$number" ]; then echo "Invalid PR number"; exit 1; fi
+          echo "number=$number" >> "$GITHUB_OUTPUT"
+
+      - uses: marocchino/sticky-pull-request-comment@v2
+        with:
+          header: site-check
+          number: ${{ steps.pr.outputs.number }}
+          path: report.md

@@ -32,7 +32,9 @@
   "types": "./dist/index.d.ts",
   "files": [
     "dist",
-    "data"
+    "data",
+    "README.md",
+    "LICENSE"
   ],
   "scripts": {
     "build": "tsup",
@@ -47,5 +49,11 @@
   },
   "devDependencies": {
     "tsup": "^9.0.0"
+  },
+  "homepage": "https://github.com/Rushclin/empreinte#readme",
+  "bugs": "https://github.com/Rushclin/empreinte/issues",
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
   }
 }

@@ -1,0 +1,74 @@
+name: Validate sites
+
+# Runs with read-only permissions, so it is safe for pull requests from forks.
+# The report is commented on the pull request by validate-sites-comment.yml.
+on:
+  pull_request:
+    paths:
+      - "sites/**"
+      - "schema/**"
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+
+      - name: Validate schema, file names and duplicates
+        id: schema
+        run: |
+          set -o pipefail
+          pnpm -s validate-sites 2>&1 | tee schema.txt
+
+      - name: List changed site files
+        id: changed
+        if: always()
+        run: |
+          files=$(git diff --name-only --diff-filter=AM "origin/${{ github.base_ref }}...HEAD" -- 'sites/*.json' | tr '\n' ' ')
+          echo "files=$files" >> "$GITHUB_OUTPUT"
+          echo "Changed: ${files:-none}"
+
+      - name: Check changed sites against the real websites
+        id: check
+        if: always() && steps.changed.outputs.files != ''
+        env:
+          FILES: ${{ steps.changed.outputs.files }}
+        # $FILES is intentionally unquoted: one argument per file.
+        run: pnpm -s check-site --markdown $FILES > check.md
+
+      - name: Build report
+        if: always()
+        run: |
+          {
+            echo "<!-- empreinte-site-check -->"
+            if [ "${{ steps.schema.outcome }}" = "success" ]; then
+              echo "✅ **Schema:** all site files are valid."
+            else
+              echo "❌ **Schema:** some site files are invalid."
+              echo; echo '```'; cat schema.txt; echo '```'
+            fi
+            echo
+            if [ -s check.md ]; then cat check.md; else echo "_No site file added or modified._"; fi
+          } > report.md
+          echo "${{ github.event.pull_request.number }}" > pr-number.txt
+          cat report.md >> "$GITHUB_STEP_SUMMARY"
+
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: site-report
+          path: |
+            report.md
+            pr-number.txt
+          retention-days: 7

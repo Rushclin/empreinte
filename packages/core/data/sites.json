@@ -50,6 +50,17 @@
     "isNSFW": false
   },
   {
+    "name": "Codechef",
+    "url": "https://www.codechef.com/users/{}",
+    "urlMain": "https://www.codechef.com/",
+    "errorType": "response_url",
+    "username_claimed": "blue",
+    "tags": [
+      "dev"
+    ],
+    "isNSFW": false
+  },
+  {
     "name": "Codewars",
     "url": "https://www.codewars.com/users/{}",
     "urlMain": "https://www.codewars.com",
@@ -70,6 +81,18 @@
     "tags": [
       "dev",
       "blogging"
+    ],
+    "isNSFW": false
+  },
+  {
+    "name": "devRant",
+    "url": "https://devrant.com/users/{}",
+    "urlMain": "https://devrant.com/",
+    "errorType": "response_url",
+    "username_claimed": "blue",
+    "tags": [
+      "dev",
+      "social"
     ],
     "isNSFW": false
   },
@@ -273,6 +296,17 @@
     "isNSFW": false
   },
   {
+    "name": "Packagist",
+    "url": "https://packagist.org/packages/{}/",
+    "urlMain": "https://packagist.org/",
+    "errorType": "response_url",
+    "username_claimed": "psr",
+    "tags": [
+      "dev"
+    ],
+    "isNSFW": false
+  },
+  {
     "name": "Pastebin",
     "url": "https://pastebin.com/u/{}",
     "urlMain": "https://pastebin.com/",
@@ -394,6 +428,18 @@
     "urlProbe": "https://www.wattpad.com/api/v3/users/{}/",
     "errorType": "status_code",
     "username_claimed": "Dogstho7951",
+    "tags": [
+      "blogging"
+    ],
+    "isNSFW": false
+  },
+  {
+    "name": "WordPress",
+    "url": "https://{}.wordpress.com/",
+    "urlMain": "https://wordpress.com",
+    "errorType": "response_url",
+    "regexCheck": "^[a-zA-Z][a-zA-Z0-9_-]*$",
+    "username_claimed": "blue",
     "tags": [
       "blogging"
     ],

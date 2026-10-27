@@ -31,7 +31,11 @@
       "anyOf": [
         {
           "type": "string",
-          "enum": ["message", "status_code", "response_url"],
+          "enum": [
+            "message",
+            "status_code",
+            "response_url"
+          ],
           "description": "How a missing account is detected: `message` (an error text is in the page), `status_code` (the HTTP status is not 2xx or is in `errorCode`) or `response_url` (the site redirects instead of answering 2xx)."
         },
         {
@@ -39,7 +43,11 @@
           "type": "array",
           "items": {
             "type": "string",
-            "enum": ["message", "status_code", "response_url"],
+            "enum": [
+              "message",
+              "status_code",
+              "response_url"
+            ],
             "description": "How a missing account is detected: `message` (an error text is in the page), `status_code` (the HTTP status is not 2xx or is in `errorCode`) or `response_url` (the site redirects instead of answering 2xx)."
           }
         }
@@ -118,13 +126,24 @@
     "request_method": {
       "description": "HTTP method. Defaults to HEAD for `status_code` only, GET otherwise.",
       "type": "string",
-      "enum": ["GET", "HEAD", "POST", "PUT"]
+      "enum": [
+        "GET",
+        "HEAD",
+        "POST",
+        "PUT"
+      ]
     },
     "request_payload": {
       "description": "JSON body sent with the request. \"{}\" is replaced by the username, recursively."
     }
   },
-  "required": ["name", "url", "urlMain", "errorType", "username_claimed"],
+  "required": [
+    "name",
+    "url",
+    "urlMain",
+    "errorType",
+    "username_claimed"
+  ],
   "additionalProperties": false,
   "$id": "https://github.com/Rushclin/empreinte/blob/main/schema/site.schema.json",
   "title": "Empreinte site definition",
@@ -145,9 +164,13 @@
         ]
       }
     },
-    "required": ["errorType"]
+    "required": [
+      "errorType"
+    ]
   },
   "then": {
-    "required": ["errorMsg"]
+    "required": [
+      "errorMsg"
+    ]
   }
 }
