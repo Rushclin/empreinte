@@ -1,0 +1,10 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "Caddy Community",
+  "url": "https://caddy.community/u/{}/summary",
+  "urlMain": "https://caddy.community/",
+  "errorType": "status_code",
+  "username_claimed": "taako_magnusen",
+  "tags": [],
+  "isNSFW": false
+}

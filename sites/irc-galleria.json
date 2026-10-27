@@ -1,0 +1,10 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "IRC-Galleria",
+  "url": "https://irc-galleria.net/user/{}",
+  "urlMain": "https://irc-galleria.net/",
+  "errorType": "response_url",
+  "username_claimed": "appas",
+  "tags": [],
+  "isNSFW": false
+}

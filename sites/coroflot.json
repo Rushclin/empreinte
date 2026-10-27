@@ -1,0 +1,10 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "Coroflot",
+  "url": "https://www.coroflot.com/{}",
+  "urlMain": "https://coroflot.com/",
+  "errorType": "status_code",
+  "username_claimed": "blue",
+  "tags": [],
+  "isNSFW": false
+}

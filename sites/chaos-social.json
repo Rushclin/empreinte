@@ -1,0 +1,10 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "chaos.social",
+  "url": "https://chaos.social/@{}",
+  "urlMain": "https://chaos.social/",
+  "errorType": "status_code",
+  "username_claimed": "rixx",
+  "tags": [],
+  "isNSFW": false
+}

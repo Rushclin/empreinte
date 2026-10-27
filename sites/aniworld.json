@@ -1,0 +1,11 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "AniWorld",
+  "url": "https://aniworld.to/user/profil/{}",
+  "urlMain": "https://aniworld.to/",
+  "errorType": "message",
+  "errorMsg": "Dieses Profil ist nicht verfügbar",
+  "username_claimed": "blue",
+  "tags": [],
+  "isNSFW": false
+}

@@ -1,0 +1,11 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "Slashdot",
+  "url": "https://slashdot.org/~{}",
+  "urlMain": "https://slashdot.org",
+  "errorType": "message",
+  "errorMsg": "user you requested does not exist",
+  "username_claimed": "blue",
+  "tags": [],
+  "isNSFW": false
+}

@@ -1,0 +1,11 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "NotABug.org",
+  "url": "https://notabug.org/{}",
+  "urlMain": "https://notabug.org/",
+  "urlProbe": "https://notabug.org/{}/followers",
+  "errorType": "status_code",
+  "username_claimed": "red",
+  "tags": [],
+  "isNSFW": false
+}

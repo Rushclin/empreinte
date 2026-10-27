@@ -1,0 +1,10 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "Airliners",
+  "url": "https://www.airliners.net/user/{}/profile/photos",
+  "urlMain": "https://www.airliners.net/",
+  "errorType": "status_code",
+  "username_claimed": "yushinlin",
+  "tags": [],
+  "isNSFW": false
+}

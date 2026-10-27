@@ -1,0 +1,12 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "Warframe Market",
+  "url": "https://warframe.market/profile/{}",
+  "urlMain": "https://warframe.market/",
+  "urlProbe": "https://api.warframe.market/v2/user/{}",
+  "errorType": "status_code",
+  "username_claimed": "kaiallalone",
+  "request_method": "GET",
+  "tags": [],
+  "isNSFW": false
+}

@@ -1,0 +1,11 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "nnRU",
+  "url": "https://{}.www.nn.ru/",
+  "urlMain": "https://www.nn.ru/",
+  "errorType": "status_code",
+  "regexCheck": "^[\\w@-]+?$",
+  "username_claimed": "blue",
+  "tags": [],
+  "isNSFW": false
+}

@@ -1,0 +1,12 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "minds",
+  "url": "https://www.minds.com/{}/",
+  "urlMain": "https://www.minds.com",
+  "urlProbe": "https://www.minds.com/api/v3/register/validate?username={}",
+  "errorType": "message",
+  "errorMsg": "\"valid\":true",
+  "username_claimed": "john",
+  "tags": [],
+  "isNSFW": false
+}

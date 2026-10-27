@@ -1,0 +1,11 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "Valorant Forums",
+  "url": "https://valorantforums.com/u/{}",
+  "urlMain": "https://valorantforums.com",
+  "errorType": "message",
+  "errorMsg": "The page you requested could not be found.",
+  "username_claimed": "Wolves",
+  "tags": [],
+  "isNSFW": false
+}

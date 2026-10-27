@@ -1,0 +1,10 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "Cryptomator Forum",
+  "url": "https://community.cryptomator.org/u/{}",
+  "urlMain": "https://community.cryptomator.org/",
+  "errorType": "status_code",
+  "username_claimed": "michael",
+  "tags": [],
+  "isNSFW": false
+}

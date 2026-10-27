@@ -1,0 +1,10 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "Harvard Scholar",
+  "url": "https://scholar.harvard.edu/{}",
+  "urlMain": "https://scholar.harvard.edu/",
+  "errorType": "status_code",
+  "username_claimed": "ousmanekane",
+  "tags": [],
+  "isNSFW": false
+}

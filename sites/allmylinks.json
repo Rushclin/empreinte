@@ -1,0 +1,12 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "AllMyLinks",
+  "url": "https://allmylinks.com/{}",
+  "urlMain": "https://allmylinks.com/",
+  "errorType": "message",
+  "errorMsg": "Page not found",
+  "regexCheck": "^[a-z0-9][a-z0-9-]{2,32}$",
+  "username_claimed": "blue",
+  "tags": [],
+  "isNSFW": false
+}

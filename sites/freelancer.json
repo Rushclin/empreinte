@@ -1,0 +1,12 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "Freelancer",
+  "url": "https://www.freelancer.com/u/{}",
+  "urlMain": "https://www.freelancer.com/",
+  "urlProbe": "https://www.freelancer.com/api/users/0.1/users?usernames%5B%5D={}&compact=true",
+  "errorType": "message",
+  "errorMsg": "\"users\":{}",
+  "username_claimed": "red0xff",
+  "tags": [],
+  "isNSFW": false
+}

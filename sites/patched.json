@@ -1,0 +1,11 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "Patched",
+  "url": "https://patched.sh/User/{}",
+  "urlMain": "https://patched.sh/",
+  "errorType": "message",
+  "errorMsg": "The member you specified is either invalid or doesn't exist.",
+  "username_claimed": "blue",
+  "tags": [],
+  "isNSFW": false
+}

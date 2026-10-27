@@ -1,0 +1,11 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "Letterboxd",
+  "url": "https://letterboxd.com/{}",
+  "urlMain": "https://letterboxd.com/",
+  "errorType": "message",
+  "errorMsg": "Sorry, we can’t find the page you’ve requested.",
+  "username_claimed": "blue",
+  "tags": [],
+  "isNSFW": false
+}

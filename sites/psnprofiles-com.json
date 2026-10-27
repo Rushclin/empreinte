@@ -1,0 +1,10 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "PSNProfiles.com",
+  "url": "https://psnprofiles.com/{}",
+  "urlMain": "https://psnprofiles.com/",
+  "errorType": "response_url",
+  "username_claimed": "blue",
+  "tags": [],
+  "isNSFW": false
+}

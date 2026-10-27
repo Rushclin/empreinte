@@ -1,0 +1,11 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "Polarsteps",
+  "url": "https://polarsteps.com/{}",
+  "urlMain": "https://polarsteps.com/",
+  "urlProbe": "https://api.polarsteps.com/users/byusername/{}",
+  "errorType": "status_code",
+  "username_claimed": "james",
+  "tags": [],
+  "isNSFW": false
+}

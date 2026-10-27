@@ -1,0 +1,14 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "LibraryThing",
+  "url": "https://www.librarything.com/profile/{}",
+  "urlMain": "https://www.librarything.com/",
+  "errorType": "message",
+  "errorMsg": "<p>Error: This user doesn't exist</p>",
+  "username_claimed": "blue",
+  "headers": {
+    "Cookie": "LTAnonSessionID=3159599315; LTUnifiedCookie=%7B%22areyouhuman%22%3A1%7D; "
+  },
+  "tags": [],
+  "isNSFW": false
+}

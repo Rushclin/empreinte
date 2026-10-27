@@ -1,0 +1,11 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "Archive of Our Own",
+  "url": "https://archiveofourown.org/users/{}",
+  "urlMain": "https://archiveofourown.org/",
+  "errorType": "status_code",
+  "regexCheck": "^[^.]*?$",
+  "username_claimed": "test",
+  "tags": [],
+  "isNSFW": false
+}

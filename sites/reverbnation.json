@@ -1,0 +1,11 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "ReverbNation",
+  "url": "https://www.reverbnation.com/{}",
+  "urlMain": "https://www.reverbnation.com/",
+  "errorType": "message",
+  "errorMsg": "Sorry, we couldn't find that page",
+  "username_claimed": "blue",
+  "tags": [],
+  "isNSFW": false
+}

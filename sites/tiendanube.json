@@ -1,0 +1,10 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "Tiendanube",
+  "url": "https://{}.mitiendanube.com/",
+  "urlMain": "https://www.tiendanube.com/",
+  "errorType": "status_code",
+  "username_claimed": "blue",
+  "tags": [],
+  "isNSFW": false
+}

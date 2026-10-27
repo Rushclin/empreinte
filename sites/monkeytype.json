@@ -1,0 +1,11 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "Monkeytype",
+  "url": "https://monkeytype.com/profile/{}",
+  "urlMain": "https://monkeytype.com/",
+  "urlProbe": "https://api.monkeytype.com/users/{}/profile",
+  "errorType": "status_code",
+  "username_claimed": "Lost_Arrow",
+  "tags": [],
+  "isNSFW": false
+}

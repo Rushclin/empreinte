@@ -1,0 +1,10 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "Spells8",
+  "url": "https://forum.spells8.com/u/{}",
+  "urlMain": "https://spells8.com",
+  "errorType": "status_code",
+  "username_claimed": "susurrus",
+  "tags": [],
+  "isNSFW": false
+}

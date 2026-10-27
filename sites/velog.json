@@ -1,0 +1,10 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "Velog",
+  "url": "https://velog.io/@{}/posts",
+  "urlMain": "https://velog.io/",
+  "errorType": "status_code",
+  "username_claimed": "qlgks1",
+  "tags": [],
+  "isNSFW": false
+}

@@ -1,0 +1,11 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "Signal",
+  "url": "https://community.signalusers.org/u/{}",
+  "urlMain": "https://community.signalusers.org",
+  "errorType": "message",
+  "errorMsg": "Oops! That page doesn’t exist or is private.",
+  "username_claimed": "jlund",
+  "tags": [],
+  "isNSFW": false
+}

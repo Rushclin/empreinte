@@ -1,0 +1,10 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "n8n Community",
+  "url": "https://community.n8n.io/u/{}/summary",
+  "urlMain": "https://community.n8n.io/",
+  "errorType": "status_code",
+  "username_claimed": "n8n",
+  "tags": [],
+  "isNSFW": false
+}

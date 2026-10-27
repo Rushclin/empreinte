@@ -1,0 +1,11 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "Crevado",
+  "url": "https://{}.crevado.com",
+  "urlMain": "https://crevado.com/",
+  "errorType": "status_code",
+  "regexCheck": "^[\\w@-]+?$",
+  "username_claimed": "blue",
+  "tags": [],
+  "isNSFW": false
+}

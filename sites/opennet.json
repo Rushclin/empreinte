@@ -1,0 +1,12 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "opennet",
+  "url": "https://www.opennet.ru/~{}",
+  "urlMain": "https://www.opennet.ru/",
+  "errorType": "message",
+  "errorMsg": "Имя участника не найдено",
+  "regexCheck": "^[^-]*$",
+  "username_claimed": "anonismus",
+  "tags": [],
+  "isNSFW": false
+}

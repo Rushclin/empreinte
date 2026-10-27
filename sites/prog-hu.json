@@ -1,0 +1,10 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "prog.hu",
+  "url": "https://prog.hu/azonosito/info/{}",
+  "urlMain": "https://prog.hu/",
+  "errorType": "response_url",
+  "username_claimed": "Sting",
+  "tags": [],
+  "isNSFW": false
+}

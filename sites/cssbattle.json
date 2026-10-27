@@ -1,0 +1,10 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "CSSBattle",
+  "url": "https://cssbattle.dev/player/{}",
+  "urlMain": "https://cssbattle.dev",
+  "errorType": "status_code",
+  "username_claimed": "beo",
+  "tags": [],
+  "isNSFW": false
+}

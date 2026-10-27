@@ -1,0 +1,10 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "pixelfed.social",
+  "url": "https://pixelfed.social/{}/",
+  "urlMain": "https://pixelfed.social",
+  "errorType": "status_code",
+  "username_claimed": "pylapp",
+  "tags": [],
+  "isNSFW": false
+}

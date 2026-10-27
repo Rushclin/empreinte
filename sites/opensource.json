@@ -1,0 +1,10 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "Opensource",
+  "url": "https://opensource.com/users/{}",
+  "urlMain": "https://opensource.com/",
+  "errorType": "status_code",
+  "username_claimed": "red",
+  "tags": [],
+  "isNSFW": false
+}

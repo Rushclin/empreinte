@@ -1,0 +1,10 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "VK",
+  "url": "https://vk.com/{}",
+  "urlMain": "https://vk.com/",
+  "errorType": "response_url",
+  "username_claimed": "brown",
+  "tags": [],
+  "isNSFW": false
+}

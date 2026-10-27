@@ -1,0 +1,11 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "Mydramalist",
+  "url": "https://www.mydramalist.com/profile/{}",
+  "urlMain": "https://mydramalist.com",
+  "errorType": "message",
+  "errorMsg": "The requested page was not found",
+  "username_claimed": "elhadidy12398",
+  "tags": [],
+  "isNSFW": false
+}

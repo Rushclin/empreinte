@@ -1,0 +1,10 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "drive2",
+  "url": "https://www.drive2.ru/users/{}",
+  "urlMain": "https://www.drive2.ru/",
+  "errorType": "status_code",
+  "username_claimed": "blue",
+  "tags": [],
+  "isNSFW": false
+}

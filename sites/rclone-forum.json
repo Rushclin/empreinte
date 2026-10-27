@@ -1,0 +1,10 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "Rclone Forum",
+  "url": "https://forum.rclone.org/u/{}",
+  "urlMain": "https://forum.rclone.org/",
+  "errorType": "status_code",
+  "username_claimed": "ncw",
+  "tags": [],
+  "isNSFW": false
+}

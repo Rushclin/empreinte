@@ -1,0 +1,11 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "Giphy",
+  "url": "https://giphy.com/{}",
+  "urlMain": "https://giphy.com/",
+  "errorType": "message",
+  "errorMsg": "<title> GIFs - Find &amp; Share on GIPHY</title>",
+  "username_claimed": "red",
+  "tags": [],
+  "isNSFW": false
+}

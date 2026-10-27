@@ -1,0 +1,10 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "Warrior Forum",
+  "url": "https://www.warriorforum.com/members/{}.html",
+  "urlMain": "https://www.warriorforum.com/",
+  "errorType": "status_code",
+  "username_claimed": "blue",
+  "tags": [],
+  "isNSFW": false
+}

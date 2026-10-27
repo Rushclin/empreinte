@@ -1,0 +1,12 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "Aparat",
+  "url": "https://www.aparat.com/{}/",
+  "urlMain": "https://www.aparat.com/",
+  "urlProbe": "https://www.aparat.com/api/fa/v1/user/user/information/username/{}",
+  "errorType": "status_code",
+  "username_claimed": "jadi",
+  "request_method": "GET",
+  "tags": [],
+  "isNSFW": false
+}

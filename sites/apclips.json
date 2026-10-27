@@ -1,0 +1,11 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "APClips",
+  "url": "https://apclips.com/{}",
+  "urlMain": "https://apclips.com/",
+  "errorType": "message",
+  "errorMsg": "Amateur Porn Content Creators",
+  "username_claimed": "onlybbyraq",
+  "tags": [],
+  "isNSFW": true
+}

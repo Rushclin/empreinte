@@ -1,0 +1,10 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "nairaland.com",
+  "url": "https://www.nairaland.com/{}",
+  "urlMain": "https://www.nairaland.com/",
+  "errorType": "status_code",
+  "username_claimed": "red",
+  "tags": [],
+  "isNSFW": false
+}

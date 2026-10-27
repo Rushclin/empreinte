@@ -1,0 +1,11 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "DMOJ",
+  "url": "https://dmoj.ca/user/{}",
+  "urlMain": "https://dmoj.ca/",
+  "errorType": "message",
+  "errorMsg": "No such user",
+  "username_claimed": "junferno",
+  "tags": [],
+  "isNSFW": false
+}

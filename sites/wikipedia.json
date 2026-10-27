@@ -1,0 +1,11 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Special:CentralAuth/{}?uselang=qqx",
+  "urlMain": "https://www.wikipedia.org/",
+  "errorType": "message",
+  "errorMsg": "centralauth-admin-nonexistent:",
+  "username_claimed": "Hoadlck",
+  "tags": [],
+  "isNSFW": false
+}

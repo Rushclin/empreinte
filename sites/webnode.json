@@ -1,0 +1,11 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "WebNode",
+  "url": "https://{}.webnode.cz/",
+  "urlMain": "https://www.webnode.cz/",
+  "errorType": "status_code",
+  "regexCheck": "^[\\w@-]+?$",
+  "username_claimed": "radkabalcarova",
+  "tags": [],
+  "isNSFW": false
+}

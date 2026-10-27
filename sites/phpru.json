@@ -1,0 +1,11 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "phpRU",
+  "url": "https://php.ru/forum/members/?username={}",
+  "urlMain": "https://php.ru/forum/",
+  "errorType": "message",
+  "errorMsg": "Указанный пользователь не найден. Пожалуйста, введите другое имя.",
+  "username_claimed": "apple",
+  "tags": [],
+  "isNSFW": false
+}

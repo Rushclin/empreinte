@@ -1,0 +1,10 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "Discuss.Elastic.co",
+  "url": "https://discuss.elastic.co/u/{}",
+  "urlMain": "https://discuss.elastic.co/",
+  "errorType": "status_code",
+  "username_claimed": "blue",
+  "tags": [],
+  "isNSFW": false
+}

@@ -1,0 +1,10 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "Motorradfrage",
+  "url": "https://www.motorradfrage.net/nutzer/{}",
+  "urlMain": "https://www.motorradfrage.net/",
+  "errorType": "status_code",
+  "username_claimed": "gutefrage",
+  "tags": [],
+  "isNSFW": false
+}

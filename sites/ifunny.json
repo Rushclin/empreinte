@@ -1,0 +1,10 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "Ifunny",
+  "url": "https://ifunny.co/user/{}",
+  "urlMain": "https://ifunny.co/",
+  "errorType": "status_code",
+  "username_claimed": "agua",
+  "tags": [],
+  "isNSFW": false
+}

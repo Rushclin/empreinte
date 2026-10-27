@@ -1,0 +1,10 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "Cracked Forum",
+  "url": "https://cracked.ax/{}",
+  "urlMain": "https://cracked.ax/",
+  "errorType": "status_code",
+  "username_claimed": "Blue",
+  "tags": [],
+  "isNSFW": false
+}

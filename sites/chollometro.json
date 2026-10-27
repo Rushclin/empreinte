@@ -1,0 +1,11 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "Chollometro",
+  "url": "https://www.chollometro.com/profile/{}",
+  "urlMain": "https://www.chollometro.com/",
+  "errorType": "status_code",
+  "username_claimed": "blue",
+  "request_method": "GET",
+  "tags": [],
+  "isNSFW": false
+}

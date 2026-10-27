@@ -1,0 +1,12 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "Topcoder",
+  "url": "https://profiles.topcoder.com/{}/",
+  "urlMain": "https://topcoder.com/",
+  "urlProbe": "https://api.topcoder.com/v5/members/{}",
+  "errorType": "status_code",
+  "regexCheck": "^[a-zA-Z0-9_.]+$",
+  "username_claimed": "USER",
+  "tags": [],
+  "isNSFW": false
+}

@@ -1,0 +1,12 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "BoardGameGeek",
+  "url": "https://boardgamegeek.com/user/{}",
+  "urlMain": "https://boardgamegeek.com/",
+  "urlProbe": "https://api.geekdo.com/api/accounts/validate/username?username={}",
+  "errorType": "message",
+  "errorMsg": "\"isValid\":true",
+  "username_claimed": "blue",
+  "tags": [],
+  "isNSFW": false
+}

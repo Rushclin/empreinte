@@ -1,0 +1,10 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "Needrom",
+  "url": "https://www.needrom.com/author/{}/",
+  "urlMain": "https://www.needrom.com/",
+  "errorType": "status_code",
+  "username_claimed": "needrom",
+  "tags": [],
+  "isNSFW": false
+}

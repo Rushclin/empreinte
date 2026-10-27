@@ -1,0 +1,10 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "CashApp",
+  "url": "https://cash.app/${}",
+  "urlMain": "https://cash.app",
+  "errorType": "status_code",
+  "username_claimed": "hotdiggitydog",
+  "tags": [],
+  "isNSFW": false
+}

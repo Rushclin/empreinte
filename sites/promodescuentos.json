@@ -1,0 +1,11 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "Promodescuentos",
+  "url": "https://www.promodescuentos.com/profile/{}",
+  "urlMain": "https://www.promodescuentos.com/",
+  "errorType": "status_code",
+  "username_claimed": "blue",
+  "request_method": "GET",
+  "tags": [],
+  "isNSFW": false
+}

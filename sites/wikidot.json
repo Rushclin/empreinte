@@ -1,0 +1,11 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "Wikidot",
+  "url": "http://www.wikidot.com/user:info/{}",
+  "urlMain": "http://www.wikidot.com/",
+  "errorType": "message",
+  "errorMsg": "User does not exist.",
+  "username_claimed": "blue",
+  "tags": [],
+  "isNSFW": false
+}

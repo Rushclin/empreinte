@@ -1,0 +1,10 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "Memrise",
+  "url": "https://www.memrise.com/user/{}/",
+  "urlMain": "https://www.memrise.com/",
+  "errorType": "status_code",
+  "username_claimed": "blue",
+  "tags": [],
+  "isNSFW": false
+}

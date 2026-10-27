@@ -1,0 +1,11 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "Discord.bio",
+  "url": "https://discords.com/api-v2/bio/details/{}",
+  "urlMain": "https://discord.bio/",
+  "errorType": "message",
+  "errorMsg": "<title>Server Error (500)</title>",
+  "username_claimed": "robert",
+  "tags": [],
+  "isNSFW": false
+}

@@ -1,0 +1,12 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "omg.lol",
+  "url": "https://{}.omg.lol",
+  "urlMain": "https://home.omg.lol",
+  "urlProbe": "https://api.omg.lol/address/{}/availability",
+  "errorType": "message",
+  "errorMsg": "\"available\": true",
+  "username_claimed": "adam",
+  "tags": [],
+  "isNSFW": false
+}

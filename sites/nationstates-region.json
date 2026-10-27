@@ -1,0 +1,11 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "NationStates Region",
+  "url": "https://nationstates.net/region={}",
+  "urlMain": "https://nationstates.net",
+  "errorType": "message",
+  "errorMsg": "does not exist.",
+  "username_claimed": "the_west_pacific",
+  "tags": [],
+  "isNSFW": false
+}

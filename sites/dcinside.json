@@ -1,0 +1,10 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "dcinside",
+  "url": "https://gallog.dcinside.com/{}",
+  "urlMain": "https://www.dcinside.com/",
+  "errorType": "status_code",
+  "username_claimed": "anrbrb",
+  "tags": [],
+  "isNSFW": false
+}

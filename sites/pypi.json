@@ -1,0 +1,13 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "PyPI",
+  "url": "https://pypi.org/user/{}",
+  "urlMain": "https://pypi.org",
+  "urlProbe": "https://pypi.org/_includes/administer-user-include/{}",
+  "errorType": "status_code",
+  "username_claimed": "Blue",
+  "tags": [
+    "dev"
+  ],
+  "isNSFW": false
+}

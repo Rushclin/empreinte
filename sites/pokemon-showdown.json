@@ -1,0 +1,10 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "Pokemon Showdown",
+  "url": "https://pokemonshowdown.com/users/{}",
+  "urlMain": "https://pokemonshowdown.com",
+  "errorType": "status_code",
+  "username_claimed": "blue",
+  "tags": [],
+  "isNSFW": false
+}

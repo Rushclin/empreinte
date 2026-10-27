@@ -1,0 +1,12 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "Codolio",
+  "url": "https://codolio.com/profile/{}",
+  "urlMain": "https://codolio.com/",
+  "errorType": "message",
+  "errorMsg": "<title>Page Not Found | Codolio</title>",
+  "regexCheck": "^[a-zA-Z0-9_-]{3,30}$",
+  "username_claimed": "testuser",
+  "tags": [],
+  "isNSFW": false
+}

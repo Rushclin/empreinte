@@ -1,0 +1,11 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "GeeksforGeeks",
+  "url": "https://auth.geeksforgeeks.org/user/{}",
+  "urlMain": "https://www.geeksforgeeks.org/",
+  "errorType": "message",
+  "errorMsg": "false   | GeeksforGeeks Profile",
+  "username_claimed": "adam",
+  "tags": [],
+  "isNSFW": false
+}

@@ -1,0 +1,10 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "Fameswap",
+  "url": "https://fameswap.com/user/{}",
+  "urlMain": "https://fameswap.com/",
+  "errorType": "status_code",
+  "username_claimed": "fameswap",
+  "tags": [],
+  "isNSFW": false
+}

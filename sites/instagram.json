@@ -1,0 +1,14 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "Instagram",
+  "url": "https://instagram.com/{}",
+  "urlMain": "https://instagram.com/",
+  "urlProbe": "https://imginn.com/{}",
+  "errorType": "status_code",
+  "username_claimed": "instagram",
+  "tags": [
+    "social",
+    "photo"
+  ],
+  "isNSFW": false
+}

@@ -1,0 +1,11 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "Motherless",
+  "url": "https://motherless.com/m/{}",
+  "urlMain": "https://motherless.com/",
+  "errorType": "message",
+  "errorMsg": "no longer a member",
+  "username_claimed": "hacker",
+  "tags": [],
+  "isNSFW": true
+}

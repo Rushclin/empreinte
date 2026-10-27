@@ -1,0 +1,11 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "PCGamer",
+  "url": "https://forums.pcgamer.com/members/?username={}",
+  "urlMain": "https://pcgamer.com",
+  "errorType": "message",
+  "errorMsg": "The specified member cannot be found. Please enter a member's entire name.",
+  "username_claimed": "admin",
+  "tags": [],
+  "isNSFW": false
+}

@@ -1,0 +1,11 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "Splits.io",
+  "url": "https://splits.io/users/{}",
+  "urlMain": "https://splits.io",
+  "errorType": "status_code",
+  "regexCheck": "^[^.]*?$",
+  "username_claimed": "cambosteve",
+  "tags": [],
+  "isNSFW": false
+}

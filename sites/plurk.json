@@ -1,0 +1,11 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "Plurk",
+  "url": "https://www.plurk.com/{}",
+  "urlMain": "https://www.plurk.com/",
+  "errorType": "message",
+  "errorMsg": "User Not Found!",
+  "username_claimed": "plurkoffice",
+  "tags": [],
+  "isNSFW": false
+}

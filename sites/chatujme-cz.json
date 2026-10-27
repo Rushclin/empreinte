@@ -1,0 +1,12 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "Chatujme.cz",
+  "url": "https://profil.chatujme.cz/{}",
+  "urlMain": "https://chatujme.cz/",
+  "errorType": "message",
+  "errorMsg": "Neexistujicí profil",
+  "regexCheck": "^[a-zA-Z][a-zA-Z1-9_-]*$",
+  "username_claimed": "david",
+  "tags": [],
+  "isNSFW": false
+}

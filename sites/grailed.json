@@ -1,0 +1,10 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "Grailed",
+  "url": "https://www.grailed.com/{}",
+  "urlMain": "https://www.grailed.com/",
+  "errorType": "response_url",
+  "username_claimed": "blue",
+  "tags": [],
+  "isNSFW": false
+}

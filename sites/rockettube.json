@@ -1,0 +1,11 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "RocketTube",
+  "url": "https://www.rockettube.com/{}",
+  "urlMain": "https://www.rockettube.com/",
+  "errorType": "message",
+  "errorMsg": "OOPS! Houston, we have a problem",
+  "username_claimed": "Tatteddick5600",
+  "tags": [],
+  "isNSFW": true
+}

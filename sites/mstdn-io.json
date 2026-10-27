@@ -1,0 +1,10 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "mstdn.io",
+  "url": "https://mstdn.io/@{}",
+  "urlMain": "https://mstdn.io/",
+  "errorType": "status_code",
+  "username_claimed": "blue",
+  "tags": [],
+  "isNSFW": false
+}

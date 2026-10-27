@@ -1,0 +1,10 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "svidbook",
+  "url": "https://www.svidbook.ru/user/{}",
+  "urlMain": "https://www.svidbook.ru/",
+  "errorType": "status_code",
+  "username_claimed": "green",
+  "tags": [],
+  "isNSFW": false
+}

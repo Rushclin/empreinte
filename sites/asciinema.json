@@ -1,0 +1,10 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "Asciinema",
+  "url": "https://asciinema.org/~{}",
+  "urlMain": "https://asciinema.org",
+  "errorType": "status_code",
+  "username_claimed": "red",
+  "tags": [],
+  "isNSFW": false
+}

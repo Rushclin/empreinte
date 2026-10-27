@@ -1,0 +1,11 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "AdmireMe.Vip",
+  "url": "https://admireme.vip/{}",
+  "urlMain": "https://admireme.vip/",
+  "errorType": "message",
+  "errorMsg": "Page Not Found",
+  "username_claimed": "DemiDevil",
+  "tags": [],
+  "isNSFW": true
+}

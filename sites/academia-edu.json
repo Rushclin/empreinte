@@ -1,0 +1,11 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "Academia.edu",
+  "url": "https://independent.academia.edu/{}",
+  "urlMain": "https://www.academia.edu/",
+  "errorType": "status_code",
+  "regexCheck": "^[^.]*$",
+  "username_claimed": "blue",
+  "tags": [],
+  "isNSFW": false
+}

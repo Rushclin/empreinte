@@ -1,0 +1,11 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "Clozemaster",
+  "url": "https://www.clozemaster.com/players/{}",
+  "urlMain": "https://www.clozemaster.com",
+  "errorType": "message",
+  "errorMsg": "Oh no! Player not found.",
+  "username_claimed": "green",
+  "tags": [],
+  "isNSFW": false
+}

@@ -1,0 +1,10 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "Pronouns.page",
+  "url": "https://pronouns.page/@{}",
+  "urlMain": "https://pronouns.page/",
+  "errorType": "status_code",
+  "username_claimed": "andrea",
+  "tags": [],
+  "isNSFW": false
+}

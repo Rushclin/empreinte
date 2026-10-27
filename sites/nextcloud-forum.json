@@ -1,0 +1,11 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "Nextcloud Forum",
+  "url": "https://help.nextcloud.com/u/{}/summary",
+  "urlMain": "https://nextcloud.com/",
+  "errorType": "status_code",
+  "regexCheck": "^(?![.-])[a-zA-Z0-9_.-]{3,20}$",
+  "username_claimed": "blue",
+  "tags": [],
+  "isNSFW": false
+}

@@ -1,0 +1,11 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "Football",
+  "url": "https://www.rusfootball.info/user/{}/",
+  "urlMain": "https://www.rusfootball.info/",
+  "errorType": "message",
+  "errorMsg": "Пользователь с таким именем не найден",
+  "username_claimed": "solo87",
+  "tags": [],
+  "isNSFW": false
+}

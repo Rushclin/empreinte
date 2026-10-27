@@ -1,0 +1,10 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "PlayStore",
+  "url": "https://play.google.com/store/apps/developer?id={}",
+  "urlMain": "https://play.google.com/store",
+  "errorType": "status_code",
+  "username_claimed": "Facebook",
+  "tags": [],
+  "isNSFW": false
+}

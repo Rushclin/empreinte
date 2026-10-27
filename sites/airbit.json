@@ -1,0 +1,10 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "Airbit",
+  "url": "https://airbit.com/{}",
+  "urlMain": "https://airbit.com/",
+  "errorType": "status_code",
+  "username_claimed": "airbit",
+  "tags": [],
+  "isNSFW": false
+}

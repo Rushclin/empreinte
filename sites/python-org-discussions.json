@@ -1,0 +1,11 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "Python.org Discussions",
+  "url": "https://discuss.python.org/u/{}/summary",
+  "urlMain": "https://discuss.python.org",
+  "errorType": "message",
+  "errorMsg": "Oops! That page doesn’t exist or is private.",
+  "username_claimed": "pablogsal",
+  "tags": [],
+  "isNSFW": false
+}

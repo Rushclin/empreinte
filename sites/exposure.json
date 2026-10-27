@@ -1,0 +1,11 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "Exposure",
+  "url": "https://{}.exposure.co/",
+  "urlMain": "https://exposure.co/",
+  "errorType": "status_code",
+  "regexCheck": "^[a-zA-Z0-9-]{1,63}$",
+  "username_claimed": "jonasjacobsson",
+  "tags": [],
+  "isNSFW": false
+}

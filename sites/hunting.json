@@ -1,0 +1,11 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "hunting",
+  "url": "https://www.hunting.ru/forum/members/?username={}",
+  "urlMain": "https://www.hunting.ru/forum/",
+  "errorType": "message",
+  "errorMsg": "Указанный пользователь не найден. Пожалуйста, введите другое имя.",
+  "username_claimed": "red",
+  "tags": [],
+  "isNSFW": false
+}

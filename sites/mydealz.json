@@ -1,0 +1,11 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "Mydealz",
+  "url": "https://www.mydealz.de/profile/{}",
+  "urlMain": "https://www.mydealz.de/",
+  "errorType": "status_code",
+  "username_claimed": "blue",
+  "request_method": "GET",
+  "tags": [],
+  "isNSFW": false
+}

@@ -1,0 +1,11 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "Blogger",
+  "url": "https://{}.blogspot.com",
+  "urlMain": "https://www.blogger.com/",
+  "errorType": "status_code",
+  "regexCheck": "^[a-zA-Z][a-zA-Z0-9_-]*$",
+  "username_claimed": "blue",
+  "tags": [],
+  "isNSFW": false
+}

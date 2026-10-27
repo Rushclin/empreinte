@@ -1,0 +1,13 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "TryHackMe",
+  "url": "https://tryhackme.com/p/{}",
+  "urlMain": "https://tryhackme.com/",
+  "urlProbe": "https://tryhackme.com/api/user/exist/{}",
+  "errorType": "message",
+  "errorMsg": "{\"success\":false}",
+  "regexCheck": "^[a-zA-Z0-9.]{1,16}$",
+  "username_claimed": "ashu",
+  "tags": [],
+  "isNSFW": false
+}

@@ -1,0 +1,11 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "All Things Worn",
+  "url": "https://www.allthingsworn.com/profile/{}",
+  "urlMain": "https://www.allthingsworn.com",
+  "errorType": "message",
+  "errorMsg": "Sell Used Panties",
+  "username_claimed": "pink",
+  "tags": [],
+  "isNSFW": true
+}

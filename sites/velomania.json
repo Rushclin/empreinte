@@ -1,0 +1,11 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "Velomania",
+  "url": "https://forum.velomania.ru/member.php?username={}",
+  "urlMain": "https://forum.velomania.ru/",
+  "errorType": "message",
+  "errorMsg": "Пользователь не зарегистрирован и не имеет профиля для просмотра.",
+  "username_claimed": "red",
+  "tags": [],
+  "isNSFW": false
+}

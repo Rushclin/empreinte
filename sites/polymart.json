@@ -1,0 +1,10 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "Polymart",
+  "url": "https://polymart.org/user/{}",
+  "urlMain": "https://polymart.org/",
+  "errorType": "response_url",
+  "username_claimed": "craciu25yt",
+  "tags": [],
+  "isNSFW": false
+}

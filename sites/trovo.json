@@ -1,0 +1,11 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "Trovo",
+  "url": "https://trovo.live/s/{}/",
+  "urlMain": "https://trovo.live",
+  "errorType": "message",
+  "errorMsg": "Uh Ohhh...",
+  "username_claimed": "Aimilios",
+  "tags": [],
+  "isNSFW": false
+}

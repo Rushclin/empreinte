@@ -1,0 +1,10 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "Ninja Kiwi",
+  "url": "https://ninjakiwi.com/profile/{}",
+  "urlMain": "https://ninjakiwi.com/",
+  "errorType": "response_url",
+  "username_claimed": "Kyruko",
+  "tags": [],
+  "isNSFW": false
+}

@@ -1,0 +1,10 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "Redbubble",
+  "url": "https://www.redbubble.com/people/{}",
+  "urlMain": "https://www.redbubble.com/",
+  "errorType": "status_code",
+  "username_claimed": "blue",
+  "tags": [],
+  "isNSFW": false
+}

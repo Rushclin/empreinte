@@ -1,0 +1,10 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "Nothing Community",
+  "url": "https://nothing.community/u/{}",
+  "urlMain": "https://nothing.community/",
+  "errorType": "status_code",
+  "username_claimed": "Carl",
+  "tags": [],
+  "isNSFW": false
+}

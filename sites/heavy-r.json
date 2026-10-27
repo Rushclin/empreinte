@@ -1,0 +1,11 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "Heavy-R",
+  "url": "https://www.heavy-r.com/user/{}",
+  "urlMain": "https://www.heavy-r.com/",
+  "errorType": "message",
+  "errorMsg": "Channel not found",
+  "username_claimed": "kilroy222",
+  "tags": [],
+  "isNSFW": true
+}

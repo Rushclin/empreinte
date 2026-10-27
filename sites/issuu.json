@@ -1,0 +1,10 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "Issuu",
+  "url": "https://issuu.com/{}",
+  "urlMain": "https://issuu.com/",
+  "errorType": "status_code",
+  "username_claimed": "jenny",
+  "tags": [],
+  "isNSFW": false
+}

@@ -1,0 +1,10 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "HackTheBox",
+  "url": "https://forum.hackthebox.com/u/{}",
+  "urlMain": "https://forum.hackthebox.com/",
+  "errorType": "status_code",
+  "username_claimed": "angar",
+  "tags": [],
+  "isNSFW": false
+}

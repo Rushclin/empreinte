@@ -1,0 +1,11 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "Jupyter Community Forum",
+  "url": "https://discourse.jupyter.org/u/{}/summary",
+  "urlMain": "https://discourse.jupyter.org",
+  "errorType": "message",
+  "errorMsg": "Oops! That page doesn’t exist or is private.",
+  "username_claimed": "choldgraf",
+  "tags": [],
+  "isNSFW": false
+}

@@ -1,0 +1,14 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "Kongregate",
+  "url": "https://www.kongregate.com/accounts/{}",
+  "urlMain": "https://www.kongregate.com/",
+  "errorType": "status_code",
+  "regexCheck": "^[a-zA-Z][a-zA-Z0-9_-]*$",
+  "username_claimed": "blue",
+  "headers": {
+    "Accept": "text/html"
+  },
+  "tags": [],
+  "isNSFW": false
+}

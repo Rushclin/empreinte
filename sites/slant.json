@@ -1,0 +1,11 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "Slant",
+  "url": "https://www.slant.co/users/{}",
+  "urlMain": "https://www.slant.co/",
+  "errorType": "status_code",
+  "regexCheck": "^.{2,32}$",
+  "username_claimed": "blue",
+  "tags": [],
+  "isNSFW": false
+}

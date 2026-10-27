@@ -1,0 +1,10 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "Avizo",
+  "url": "https://www.avizo.cz/{}/",
+  "urlMain": "https://www.avizo.cz/",
+  "errorType": "response_url",
+  "username_claimed": "blue",
+  "tags": [],
+  "isNSFW": false
+}

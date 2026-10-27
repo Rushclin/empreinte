@@ -1,0 +1,10 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "Ask Fedora",
+  "url": "https://ask.fedoraproject.org/u/{}",
+  "urlMain": "https://ask.fedoraproject.org/",
+  "errorType": "status_code",
+  "username_claimed": "red",
+  "tags": [],
+  "isNSFW": false
+}

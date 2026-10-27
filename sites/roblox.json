@@ -1,0 +1,10 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "Roblox",
+  "url": "https://www.roblox.com/user.aspx?username={}",
+  "urlMain": "https://www.roblox.com/",
+  "errorType": "status_code",
+  "username_claimed": "bluewolfekiller",
+  "tags": [],
+  "isNSFW": false
+}

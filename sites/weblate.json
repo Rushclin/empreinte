@@ -1,0 +1,11 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "Weblate",
+  "url": "https://hosted.weblate.org/user/{}/",
+  "urlMain": "https://hosted.weblate.org/",
+  "errorType": "status_code",
+  "regexCheck": "^[a-zA-Z0-9@._-]{1,150}$",
+  "username_claimed": "adam",
+  "tags": [],
+  "isNSFW": false
+}

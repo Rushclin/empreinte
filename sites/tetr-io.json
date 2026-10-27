@@ -1,0 +1,12 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "TETR.IO",
+  "url": "https://ch.tetr.io/u/{}",
+  "urlMain": "https://tetr.io",
+  "urlProbe": "https://ch.tetr.io/api/users/{}",
+  "errorType": "message",
+  "errorMsg": "No such user!",
+  "username_claimed": "osk",
+  "tags": [],
+  "isNSFW": false
+}

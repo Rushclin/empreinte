@@ -1,0 +1,11 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "furaffinity",
+  "url": "https://www.furaffinity.net/user/{}",
+  "urlMain": "https://www.furaffinity.net",
+  "errorType": "message",
+  "errorMsg": "This user cannot be found.",
+  "username_claimed": "jesus",
+  "tags": [],
+  "isNSFW": false
+}

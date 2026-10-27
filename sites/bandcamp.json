@@ -1,0 +1,10 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "Bandcamp",
+  "url": "https://www.bandcamp.com/{}",
+  "urlMain": "https://www.bandcamp.com/",
+  "errorType": "status_code",
+  "username_claimed": "blue",
+  "tags": [],
+  "isNSFW": false
+}

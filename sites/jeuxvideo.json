@@ -1,0 +1,12 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "jeuxvideo",
+  "url": "https://www.jeuxvideo.com/profil/{}",
+  "urlMain": "https://www.jeuxvideo.com",
+  "urlProbe": "https://www.jeuxvideo.com/profil/{}?mode=infos",
+  "errorType": "status_code",
+  "username_claimed": "adam",
+  "request_method": "GET",
+  "tags": [],
+  "isNSFW": false
+}

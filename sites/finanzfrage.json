@@ -1,0 +1,10 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "Finanzfrage",
+  "url": "https://www.finanzfrage.net/nutzer/{}",
+  "urlMain": "https://www.finanzfrage.net/",
+  "errorType": "status_code",
+  "username_claimed": "finanzfrage",
+  "tags": [],
+  "isNSFW": false
+}

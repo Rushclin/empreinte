@@ -1,0 +1,10 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "Trawelling",
+  "url": "https://traewelling.de/@{}",
+  "urlMain": "https://traewelling.de/",
+  "errorType": "status_code",
+  "username_claimed": "lassestolley",
+  "tags": [],
+  "isNSFW": false
+}

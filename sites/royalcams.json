@@ -1,0 +1,10 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "RoyalCams",
+  "url": "https://royalcams.com/profile/{}",
+  "urlMain": "https://royalcams.com",
+  "errorType": "status_code",
+  "username_claimed": "asuna-black",
+  "tags": [],
+  "isNSFW": false
+}

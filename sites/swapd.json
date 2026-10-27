@@ -1,0 +1,10 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "SWAPD",
+  "url": "https://swapd.co/u/{}",
+  "urlMain": "https://swapd.co/",
+  "errorType": "status_code",
+  "username_claimed": "swapd",
+  "tags": [],
+  "isNSFW": false
+}

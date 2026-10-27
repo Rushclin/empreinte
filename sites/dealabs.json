@@ -1,0 +1,12 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "Dealabs",
+  "url": "https://www.dealabs.com/profile/{}",
+  "urlMain": "https://www.dealabs.com/",
+  "errorType": "message",
+  "errorMsg": "La page que vous essayez",
+  "regexCheck": "[a-z0-9]{4,16}",
+  "username_claimed": "blue",
+  "tags": [],
+  "isNSFW": false
+}

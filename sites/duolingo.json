@@ -1,0 +1,12 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "Duolingo",
+  "url": "https://www.duolingo.com/profile/{}",
+  "urlMain": "https://duolingo.com/",
+  "urlProbe": "https://www.duolingo.com/2017-06-30/users?username={}",
+  "errorType": "message",
+  "errorMsg": "{\"users\":[]}",
+  "username_claimed": "blue",
+  "tags": [],
+  "isNSFW": false
+}

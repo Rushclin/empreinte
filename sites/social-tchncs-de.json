@@ -1,0 +1,10 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "social.tchncs.de",
+  "url": "https://social.tchncs.de/@{}",
+  "urlMain": "https://social.tchncs.de/",
+  "errorType": "status_code",
+  "username_claimed": "Milan",
+  "tags": [],
+  "isNSFW": false
+}

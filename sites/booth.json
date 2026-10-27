@@ -1,0 +1,11 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "BOOTH",
+  "url": "https://{}.booth.pm/",
+  "urlMain": "https://booth.pm/",
+  "errorType": "response_url",
+  "regexCheck": "^[\\w@-]+?$",
+  "username_claimed": "blue",
+  "tags": [],
+  "isNSFW": false
+}

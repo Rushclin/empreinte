@@ -1,0 +1,12 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "HackerRank",
+  "url": "https://hackerrank.com/{}",
+  "urlMain": "https://hackerrank.com/",
+  "errorType": "message",
+  "errorMsg": "Something went wrong",
+  "regexCheck": "^[^.]*?$",
+  "username_claimed": "satznova",
+  "tags": [],
+  "isNSFW": false
+}

@@ -1,0 +1,12 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "Gumroad",
+  "url": "https://www.gumroad.com/{}",
+  "urlMain": "https://www.gumroad.com/",
+  "errorType": "message",
+  "errorMsg": "Page not found (404) - Gumroad",
+  "regexCheck": "^[^.]*?$",
+  "username_claimed": "blue",
+  "tags": [],
+  "isNSFW": false
+}

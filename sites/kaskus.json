@@ -1,0 +1,12 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "kaskus",
+  "url": "https://www.kaskus.co.id/@{}",
+  "urlMain": "https://www.kaskus.co.id",
+  "urlProbe": "https://www.kaskus.co.id/api/users?username={}",
+  "errorType": "status_code",
+  "username_claimed": "l0mbart",
+  "request_method": "GET",
+  "tags": [],
+  "isNSFW": false
+}

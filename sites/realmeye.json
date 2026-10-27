@@ -1,0 +1,11 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "Realmeye",
+  "url": "https://www.realmeye.com/player/{}",
+  "urlMain": "https://www.realmeye.com/",
+  "errorType": "message",
+  "errorMsg": "Sorry, but we either:",
+  "username_claimed": "rotmg",
+  "tags": [],
+  "isNSFW": false
+}

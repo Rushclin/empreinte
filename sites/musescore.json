@@ -1,0 +1,11 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "MuseScore",
+  "url": "https://musescore.com/{}",
+  "urlMain": "https://musescore.com/",
+  "errorType": "status_code",
+  "username_claimed": "arrangeme",
+  "request_method": "GET",
+  "tags": [],
+  "isNSFW": false
+}

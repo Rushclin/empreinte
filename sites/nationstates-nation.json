@@ -1,0 +1,11 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "NationStates Nation",
+  "url": "https://nationstates.net/nation={}",
+  "urlMain": "https://nationstates.net",
+  "errorType": "message",
+  "errorMsg": "Was this your nation? It may have ceased to exist due to inactivity, but can rise again!",
+  "username_claimed": "the_holy_principality_of_saint_mark",
+  "tags": [],
+  "isNSFW": false
+}

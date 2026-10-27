@@ -1,0 +1,10 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "VLR",
+  "url": "https://www.vlr.gg/user/{}",
+  "urlMain": "https://www.vlr.gg",
+  "errorType": "status_code",
+  "username_claimed": "optms",
+  "tags": [],
+  "isNSFW": false
+}

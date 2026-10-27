@@ -1,0 +1,15 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "1337x",
+  "url": "https://www.1337x.to/user/{}/",
+  "urlMain": "https://www.1337x.to/",
+  "errorType": "message",
+  "errorMsg": [
+    "<title>Error something went wrong.</title>",
+    "<head><title>404 Not Found</title></head>"
+  ],
+  "regexCheck": "^[A-Za-z0-9]{4,12}$",
+  "username_claimed": "FitGirl",
+  "tags": [],
+  "isNSFW": false
+}

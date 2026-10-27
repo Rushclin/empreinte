@@ -1,0 +1,11 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "addons.wago.io",
+  "url": "https://addons.wago.io/user/{}",
+  "urlMain": "https://addons.wago.io/",
+  "errorType": "status_code",
+  "errorCode": 404,
+  "username_claimed": "blue",
+  "tags": [],
+  "isNSFW": false
+}

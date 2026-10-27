@@ -1,0 +1,10 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "Tweakers",
+  "url": "https://tweakers.net/gallery/{}",
+  "urlMain": "https://tweakers.net",
+  "errorType": "status_code",
+  "username_claimed": "femme",
+  "tags": [],
+  "isNSFW": false
+}

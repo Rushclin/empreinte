@@ -1,0 +1,11 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "Mamot",
+  "url": "https://mamot.fr/@{}",
+  "urlMain": "https://mamot.fr/",
+  "errorType": "status_code",
+  "regexCheck": "^[a-zA-Z0-9_]{1,30}$",
+  "username_claimed": "anciensEnssat",
+  "tags": [],
+  "isNSFW": false
+}

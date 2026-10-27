@@ -1,0 +1,11 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "HotUKdeals",
+  "url": "https://www.hotukdeals.com/profile/{}",
+  "urlMain": "https://www.hotukdeals.com/",
+  "errorType": "status_code",
+  "username_claimed": "Blue",
+  "request_method": "GET",
+  "tags": [],
+  "isNSFW": false
+}

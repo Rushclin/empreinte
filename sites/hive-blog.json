@@ -1,0 +1,11 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "Hive Blog",
+  "url": "https://hive.blog/@{}",
+  "urlMain": "https://hive.blog/",
+  "errorType": "message",
+  "errorMsg": "<title>User Not Found - Hive</title>",
+  "username_claimed": "mango-juice",
+  "tags": [],
+  "isNSFW": false
+}

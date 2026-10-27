@@ -1,0 +1,10 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "CTAN",
+  "url": "https://ctan.org/author/{}",
+  "urlMain": "https://ctan.org/",
+  "errorType": "status_code",
+  "username_claimed": "briggs",
+  "tags": [],
+  "isNSFW": false
+}

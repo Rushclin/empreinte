@@ -1,0 +1,10 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "osu!",
+  "url": "https://osu.ppy.sh/users/{}",
+  "urlMain": "https://osu.ppy.sh/",
+  "errorType": "status_code",
+  "username_claimed": "blue",
+  "tags": [],
+  "isNSFW": false
+}

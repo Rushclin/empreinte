@@ -1,0 +1,10 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "Apple Developer",
+  "url": "https://developer.apple.com/forums/profile/{}",
+  "urlMain": "https://developer.apple.com",
+  "errorType": "status_code",
+  "username_claimed": "lio24d",
+  "tags": [],
+  "isNSFW": false
+}

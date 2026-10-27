@@ -1,0 +1,10 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "Playstrategy",
+  "url": "https://playstrategy.org/@/{}",
+  "urlMain": "https://playstrategy.org",
+  "errorType": "status_code",
+  "username_claimed": "oruro",
+  "tags": [],
+  "isNSFW": false
+}

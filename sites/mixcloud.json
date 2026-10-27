@@ -1,0 +1,11 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "MixCloud",
+  "url": "https://www.mixcloud.com/{}/",
+  "urlMain": "https://www.mixcloud.com/",
+  "urlProbe": "https://api.mixcloud.com/{}/",
+  "errorType": "status_code",
+  "username_claimed": "jenny",
+  "tags": [],
+  "isNSFW": false
+}

@@ -1,0 +1,11 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "Odysee",
+  "url": "https://odysee.com/@{}",
+  "urlMain": "https://odysee.com/",
+  "errorType": "message",
+  "errorMsg": "<link rel=\"canonical\" content=\"odysee.com\"/>",
+  "username_claimed": "Odysee",
+  "tags": [],
+  "isNSFW": false
+}

@@ -1,0 +1,10 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "OpenGameArt",
+  "url": "https://opengameart.org/users/{}",
+  "urlMain": "https://opengameart.org",
+  "errorType": "status_code",
+  "username_claimed": "ski",
+  "tags": [],
+  "isNSFW": false
+}

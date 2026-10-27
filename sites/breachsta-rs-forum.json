@@ -1,0 +1,11 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "BreachSta.rs Forum",
+  "url": "https://breachsta.rs/profile/{}",
+  "urlMain": "https://breachsta.rs/",
+  "errorType": "message",
+  "errorMsg": "<title>Error - BreachStars</title>",
+  "username_claimed": "Sleepybubble",
+  "tags": [],
+  "isNSFW": false
+}

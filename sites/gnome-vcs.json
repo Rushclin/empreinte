@@ -1,0 +1,11 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "GNOME VCS",
+  "url": "https://gitlab.gnome.org/{}",
+  "urlMain": "https://gitlab.gnome.org/",
+  "errorType": "response_url",
+  "regexCheck": "^(?!-)[a-zA-Z0-9_.-]{2,255}(?<!\\.)$",
+  "username_claimed": "adam",
+  "tags": [],
+  "isNSFW": false
+}

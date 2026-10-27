@@ -1,0 +1,10 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "Tellonym.me",
+  "url": "https://tellonym.me/{}",
+  "urlMain": "https://tellonym.me/",
+  "errorType": "status_code",
+  "username_claimed": "blue",
+  "tags": [],
+  "isNSFW": false
+}

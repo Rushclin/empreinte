@@ -1,0 +1,10 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "Wykop",
+  "url": "https://www.wykop.pl/ludzie/{}",
+  "urlMain": "https://www.wykop.pl",
+  "errorType": "status_code",
+  "username_claimed": "blue",
+  "tags": [],
+  "isNSFW": false
+}

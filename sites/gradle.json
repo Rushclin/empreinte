@@ -1,0 +1,11 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "Gradle",
+  "url": "https://plugins.gradle.org/u/{}",
+  "urlMain": "https://gradle.org/",
+  "errorType": "status_code",
+  "regexCheck": "^(?!-)[a-zA-Z0-9-]{3,}(?<!-)$",
+  "username_claimed": "jetbrains",
+  "tags": [],
+  "isNSFW": false
+}

@@ -1,0 +1,11 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "GaiaOnline",
+  "url": "https://www.gaiaonline.com/profiles/{}",
+  "urlMain": "https://www.gaiaonline.com/",
+  "errorType": "message",
+  "errorMsg": "No user ID specified or user does not exist",
+  "username_claimed": "adam",
+  "tags": [],
+  "isNSFW": false
+}

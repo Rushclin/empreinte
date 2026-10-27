@@ -1,0 +1,10 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "ThemeForest",
+  "url": "https://themeforest.net/user/{}",
+  "urlMain": "https://themeforest.net/",
+  "errorType": "status_code",
+  "username_claimed": "user",
+  "tags": [],
+  "isNSFW": false
+}

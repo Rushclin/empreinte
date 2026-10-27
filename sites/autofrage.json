@@ -1,0 +1,10 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "Autofrage",
+  "url": "https://www.autofrage.net/nutzer/{}",
+  "urlMain": "https://www.autofrage.net/",
+  "errorType": "status_code",
+  "username_claimed": "autofrage",
+  "tags": [],
+  "isNSFW": false
+}

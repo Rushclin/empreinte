@@ -1,0 +1,11 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "PepperPL",
+  "url": "https://www.pepper.pl/profile/{}",
+  "urlMain": "https://www.pepper.pl/",
+  "errorType": "status_code",
+  "username_claimed": "FireChicken",
+  "request_method": "GET",
+  "tags": [],
+  "isNSFW": false
+}

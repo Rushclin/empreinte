@@ -1,0 +1,10 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "Envato Forum",
+  "url": "https://forums.envato.com/u/{}",
+  "urlMain": "https://forums.envato.com/",
+  "errorType": "status_code",
+  "username_claimed": "enabled",
+  "tags": [],
+  "isNSFW": false
+}
