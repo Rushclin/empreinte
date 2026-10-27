@@ -17,28 +17,28 @@ import { readFile, writeFile } from "node:fs/promises";
 type ErrorType = "message" | "status_code" | "response_url";
 
 interface SiteInfo {
-  url: string;                       // URL du profil, "{}" = username
-  urlMain: string;                   // page d'accueil du site
-  urlProbe?: string;                 // URL alternative à interroger (API, etc.)
+  url: string; // URL du profil, "{}" = username
+  urlMain: string; // page d'accueil du site
+  urlProbe?: string; // URL alternative à interroger (API, etc.)
   errorType: ErrorType | ErrorType[];
-  errorMsg?: string | string[];      // texte présent si le compte N'EXISTE PAS
-  errorCode?: number | number[];     // code HTTP signifiant "n'existe pas"
-  regexCheck?: string;               // format de username accepté par le site
+  errorMsg?: string | string[]; // texte présent si le compte N'EXISTE PAS
+  errorCode?: number | number[]; // code HTTP signifiant "n'existe pas"
+  regexCheck?: string; // format de username accepté par le site
   request_method?: "GET" | "HEAD" | "POST" | "PUT";
-  request_payload?: unknown;         // corps JSON (avec "{}" interpolé)
+  request_payload?: unknown; // corps JSON (avec "{}" interpolé)
   headers?: Record<string, string>;
   isNSFW?: boolean;
-  username_claimed: string;          // username connu, utilisé pour les tests
+  username_claimed: string; // username connu, utilisé pour les tests
 }
 
 type SiteData = Record<string, SiteInfo>;
 
 enum QueryStatus {
-  CLAIMED = "Claimed",     // compte trouvé
+  CLAIMED = "Claimed", // compte trouvé
   AVAILABLE = "Available", // compte absent
-  UNKNOWN = "Unknown",     // erreur réseau / config
-  ILLEGAL = "Illegal",     // username refusé par regexCheck
-  WAF = "WAF",             // bloqué par Cloudflare & co
+  UNKNOWN = "Unknown", // erreur réseau / config
+  ILLEGAL = "Illegal", // username refusé par regexCheck
+  WAF = "WAF", // bloqué par Cloudflare & co
 }
 
 interface QueryResult {
@@ -55,8 +55,7 @@ interface QueryResult {
 const DATA_URL =
   "https://raw.githubusercontent.com/sherlock-project/sherlock/master/sherlock_project/resources/data.json";
 
-const USER_AGENT =
-  "Mozilla/5.0 (X11; Linux x86_64; rv:129.0) Gecko/20100101 Firefox/129.0";
+const USER_AGENT = "Mozilla/5.0 (X11; Linux x86_64; rv:129.0) Gecko/20100101 Firefox/129.0";
 
 // Empreintes de pages anti-bot (Cloudflare, AWS WAF, PerimeterX)
 const WAF_FINGERPRINTS = [
@@ -135,9 +134,8 @@ async function checkSite(
 
   const errorTypes = toArray(info.errorType);
   const probeUrl = info.urlProbe ? interpolate(info.urlProbe, username) : url;
-  const payload = info.request_payload !== undefined
-    ? interpolate(info.request_payload, username)
-    : undefined;
+  const payload =
+    info.request_payload !== undefined ? interpolate(info.request_payload, username) : undefined;
 
   // b) Méthode : HEAD suffit pour status_code (plus rapide), sinon GET
   const method =
@@ -163,7 +161,8 @@ async function checkSite(
     });
     if (method !== "HEAD") body = await res.text();
   } catch (err) {
-    const msg = err instanceof Error ? err.name === "TimeoutError" ? "Timeout" : err.message : String(err);
+    const msg =
+      err instanceof Error ? (err.name === "TimeoutError" ? "Timeout" : err.message) : String(err);
     return { site: name, url, status: QueryStatus.UNKNOWN, context: msg };
   }
 
@@ -231,7 +230,11 @@ export async function sherlock(username: string, opts: Options): Promise<QueryRe
 function parseArgs(argv: string[]) {
   const usernames: string[] = [];
   const sites: string[] = [];
-  let timeout = 60, nsfw = false, all = false, json: string | undefined, data: string | undefined;
+  let timeout = 60,
+    nsfw = false,
+    all = false,
+    json: string | undefined,
+    data: string | undefined;
   for (let i = 0; i < argv.length; i++) {
     const a = argv[i];
     if (a === "--timeout") timeout = Number(argv[++i]);
@@ -248,7 +251,9 @@ function parseArgs(argv: string[]) {
 async function main() {
   const args = parseArgs(process.argv.slice(2));
   if (!args.usernames.length) {
-    console.log("Usage: sherlock.ts <username...> [--timeout s] [--site Nom] [--nsfw] [--all] [--json f] [--data f]");
+    console.log(
+      "Usage: sherlock.ts <username...> [--timeout s] [--site Nom] [--nsfw] [--all] [--json f] [--data f]",
+    );
     process.exit(1);
   }
 
@@ -263,7 +268,8 @@ async function main() {
       dataSource: args.data,
       onResult: (r) => {
         if (r.status === QueryStatus.CLAIMED) console.log(`[+] ${r.site}: ${r.url}`);
-        else if (args.all) console.log(`[-] ${r.site}: ${r.status}${r.context ? ` (${r.context})` : ""}`);
+        else if (args.all)
+          console.log(`[-] ${r.site}: ${r.status}${r.context ? ` (${r.context})` : ""}`);
       },
     });
     const found = results.filter((r) => r.status === QueryStatus.CLAIMED).length;

@@ -1,0 +1,43 @@
+{
+  "name": "empreinte",
+  "version": "0.1.0",
+  "description": "Find where a username exists across hundreds of websites, from your terminal.",
+  "license": "MIT",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rushclin/empreinte.git",
+    "directory": "packages/cli"
+  },
+  "keywords": [
+    "osint",
+    "username",
+    "sherlock",
+    "footprint",
+    "cli"
+  ],
+  "engines": {
+    "node": ">=20.18.1"
+  },
+  "bin": {
+    "empreinte": "./dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run --passWithNoTests"
+  },
+  "dependencies": {
+    "@empreinte/core": "workspace:*",
+    "citty": "^0.2.2",
+    "ora": "^9.4.1",
+    "picocolors": "^1.1.1"
+  },
+  "devDependencies": {
+    "tsup": "^9.0.0"
+  }
+}

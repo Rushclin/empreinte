@@ -1,38 +1,35 @@
 {
-  "name": "empreinte",
-  "version": "0.1.0",
+  "name": "empreinte-monorepo",
   "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "eslint"
+  "description": "Empreinte (French for \"footprint\") — find where a username exists across hundreds of websites.",
+  "license": "MIT",
+  "type": "module",
+  "packageManager": "pnpm@10.33.2",
+  "engines": {
+    "node": ">=22.12"
   },
-  "dependencies": {
-    "axios": "^1.20.0",
-    "next": "16.4.2",
-    "next-intl": "^4.14.9",
-    "react": "19.3.0",
-    "react-dom": "19.3.0",
-    "zod": "^4.6.7"
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "typecheck": "turbo run typecheck",
+    "test": "turbo run test",
+    "lint": "biome check .",
+    "format": "biome check --write .",
+    "build-sites": "tsx scripts/build-sites.ts",
+    "validate-sites": "tsx scripts/build-sites.ts --check",
+    "check-site": "tsx scripts/check-site.ts",
+    "gen-schema": "tsx scripts/gen-schema.ts",
+    "import-sherlock": "tsx scripts/import-sherlock.ts",
+    "changeset": "changeset",
+    "release": "turbo run build --filter=./packages/* && changeset publish"
   },
   "devDependencies": {
-    "@tailwindcss/turbopack": "^4",
-    "@types/node": "^20",
-    "@types/react": "^19",
-    "@types/react-dom": "^19",
-    "eslint": "^9",
-    "eslint-config-next": "16.4.2",
-    "tailwindcss": "^4",
-    "typescript": "^5"
-  },
-  "packageManager": "bun@1.4.2",
-  "ignoreScripts": [
-    "sharp",
-    "unrs-resolver"
-  ],
-  "trustedDependencies": [
-    "sharp",
-    "unrs-resolver"
-  ]
+    "@biomejs/biome": "^2.6.3",
+    "@changesets/cli": "^3.0.3",
+    "@types/node": "^22",
+    "tsx": "^4.23.15",
+    "turbo": "^2.11.10",
+    "typescript": "^5.9.3",
+    "vitest": "^5.0.5"
+  }
 }
