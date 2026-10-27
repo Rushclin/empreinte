@@ -5,9 +5,6 @@
   "urlMain": "https://www.behance.net/",
   "errorType": "status_code",
   "username_claimed": "blue",
-  "tags": [
-    "art",
-    "design"
-  ],
+  "tags": ["art", "design"],
   "isNSFW": false
 }

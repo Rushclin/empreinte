@@ -9,8 +9,6 @@
   "headers": {
     "Sec-Fetch-Mode": "navigate"
   },
-  "tags": [
-    "social"
-  ],
+  "tags": ["social"],
   "isNSFW": false
 }

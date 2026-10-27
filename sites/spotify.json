@@ -5,8 +5,6 @@
   "urlMain": "https://open.spotify.com/",
   "errorType": "status_code",
   "username_claimed": "blue",
-  "tags": [
-    "music"
-  ],
+  "tags": ["music"],
   "isNSFW": false
 }

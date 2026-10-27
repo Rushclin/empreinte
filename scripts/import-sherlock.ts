@@ -11,11 +11,12 @@
  * Imported sites have no tags (Sherlock has none) unless listed in TAGS below.
  * Always run `pnpm check-site` on imported sites before opening a pull request.
  */
+import { execFileSync } from "node:child_process";
 import { access, readFile, writeFile } from "node:fs/promises";
 import { join } from "node:path";
 import { parseArgs } from "node:util";
 import { SiteSchema, siteSlug } from "../packages/core/src/index.js";
-import { formatZodError, SCHEMA_REF, SITES_DIR } from "./lib/sites.js";
+import { formatZodError, ROOT, SCHEMA_REF, SITES_DIR } from "./lib/sites.js";
 
 const SHERLOCK_DATA_URL =
   "https://raw.githubusercontent.com/sherlock-project/sherlock/master/sherlock_project/resources/data.json";
@@ -139,6 +140,7 @@ async function main() {
     : undefined;
 
   let written = 0;
+  const writtenPaths: string[] = [];
   let skipped = 0;
   const rejected: string[] = [];
 
@@ -164,6 +166,7 @@ async function main() {
       console.log(`--- sites/${siteSlug(name)}.json\n${json}`);
     } else {
       await writeFile(path, json);
+      writtenPaths.push(path);
     }
     written++;
   }
@@ -174,6 +177,13 @@ async function main() {
   if (rejected.length > 0) {
     console.log(`\n${rejected.length} site(s) rejected by the schema:`);
     for (const line of rejected) console.log(`  - ${line}`);
+  }
+  if (writtenPaths.length > 0) {
+    // JSON.stringify puts each array item on its own line; apply the repository's Biome style.
+    execFileSync("pnpm", ["exec", "biome", "format", "--write", ...writtenPaths], {
+      cwd: ROOT,
+      stdio: "ignore",
+    });
   }
   if (!values["dry-run"] && written > 0) {
     console.log("\nNext: run `pnpm check-site <files>` on the new sites, then `pnpm build-sites`.");

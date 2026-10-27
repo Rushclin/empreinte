@@ -5,9 +5,7 @@
   "urlMain": "https://venmo.com/",
   "urlProbe": "https://test1.venmo.com/u/{}",
   "errorType": "message",
-  "errorMsg": [
-    "Venmo | Page Not Found"
-  ],
+  "errorMsg": ["Venmo | Page Not Found"],
   "username_claimed": "jenny",
   "headers": {
     "Host": "account.venmo.com"

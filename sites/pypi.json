@@ -6,8 +6,6 @@
   "urlProbe": "https://pypi.org/_includes/administer-user-include/{}",
   "errorType": "status_code",
   "username_claimed": "Blue",
-  "tags": [
-    "dev"
-  ],
+  "tags": ["dev"],
   "isNSFW": false
 }
