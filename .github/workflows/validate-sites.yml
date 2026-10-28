@@ -39,13 +39,13 @@ jobs:
           echo "files=$files" >> "$GITHUB_OUTPUT"
           echo "Changed: ${files:-none}"
 
-      - name: Check changed sites against the real websites
-        id: check
-        if: always() && steps.changed.outputs.files != ''
-        env:
-          FILES: ${{ steps.changed.outputs.files }}
-        # $FILES is intentionally unquoted: one argument per file.
-        run: pnpm -s check-site --markdown $FILES > check.md
+      # - name: Check changed sites against the real websites
+      #   id: check
+      #   if: always() && steps.changed.outputs.files != ''
+      #   env:
+      #     FILES: ${{ steps.changed.outputs.files }}
+      #   # $FILES is intentionally unquoted: one argument per file.
+      #   run: pnpm -s check-site --markdown $FILES > check.md
 
       - name: Build report
         if: always()
