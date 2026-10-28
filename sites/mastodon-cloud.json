@@ -1,0 +1,10 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "mastodon.cloud",
+  "url": "https://mastodon.cloud/@{}",
+  "urlMain": "https://mastodon.cloud/",
+  "errorType": "status_code",
+  "username_claimed": "TheAdmin",
+  "tags": [],
+  "isNSFW": false
+}

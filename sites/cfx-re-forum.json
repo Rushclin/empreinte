@@ -1,0 +1,10 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "Cfx.re Forum",
+  "url": "https://forum.cfx.re/u/{}/summary",
+  "urlMain": "https://forum.cfx.re",
+  "errorType": "status_code",
+  "username_claimed": "hightowerlssd",
+  "tags": [],
+  "isNSFW": false
+}

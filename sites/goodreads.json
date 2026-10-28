@@ -1,0 +1,10 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "GoodReads",
+  "url": "https://www.goodreads.com/{}",
+  "urlMain": "https://www.goodreads.com/",
+  "errorType": "status_code",
+  "username_claimed": "blue",
+  "tags": [],
+  "isNSFW": false
+}

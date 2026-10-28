@@ -1,0 +1,11 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "Ruby Forums",
+  "url": "https://ruby-forum.com/u/{}/summary",
+  "urlMain": "https://ruby-forums.com",
+  "errorType": "message",
+  "errorMsg": "Oops! That page doesn’t exist or is private.",
+  "username_claimed": "rishard",
+  "tags": [],
+  "isNSFW": false
+}

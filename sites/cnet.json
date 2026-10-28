@@ -1,0 +1,11 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "CNET",
+  "url": "https://www.cnet.com/profiles/{}/",
+  "urlMain": "https://www.cnet.com/",
+  "errorType": "status_code",
+  "regexCheck": "^[a-z].*$",
+  "username_claimed": "melliott",
+  "tags": [],
+  "isNSFW": false
+}

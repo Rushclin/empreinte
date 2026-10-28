@@ -1,0 +1,11 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "Slides",
+  "url": "https://slides.com/{}",
+  "urlMain": "https://slides.com/",
+  "errorType": "status_code",
+  "errorCode": 204,
+  "username_claimed": "blue",
+  "tags": [],
+  "isNSFW": false
+}

@@ -1,0 +1,13 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "npm",
+  "url": "https://www.npmjs.com/~{}",
+  "urlMain": "https://www.npmjs.com/",
+  "urlProbe": "https://registry.npmjs.org/-/v1/search?text=maintainer:{}&size=1",
+  "errorType": "message",
+  "errorMsg": "\"total\":0",
+  "regexCheck": "^[a-z0-9][a-z0-9._-]*$",
+  "username_claimed": "sindresorhus",
+  "tags": ["dev"],
+  "isNSFW": false
+}

@@ -1,0 +1,35 @@
+name: False positive
+description: A site reports an account that does NOT exist
+title: "[False positive]: "
+labels: ["false-positive", "site"]
+body:
+  - type: input
+    id: site
+    attributes:
+      label: Site name
+      placeholder: GitHub
+    validations:
+      required: true
+  - type: input
+    id: username
+    attributes:
+      label: Username
+      description: A username that does NOT exist on the site but is reported as found. Please use a public or test username, not someone's private account.
+    validations:
+      required: true
+  - type: textarea
+    id: output
+    attributes:
+      label: Output of `pnpm check-site`
+      description: Run `pnpm check-site <Site name>` from a clone of the repository, if you can.
+      render: text
+  - type: dropdown
+    id: where
+    attributes:
+      label: Where did you see it?
+      options:
+        - Website
+        - CLI (npx empreinte)
+        - Both
+    validations:
+      required: true

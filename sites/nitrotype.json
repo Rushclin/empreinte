@@ -1,0 +1,11 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "NitroType",
+  "url": "https://www.nitrotype.com/racer/{}",
+  "urlMain": "https://www.nitrotype.com/",
+  "errorType": "message",
+  "errorMsg": "<title>Nitro Type | Competitive Typing Game | Race Your Friends</title>",
+  "username_claimed": "jianclash",
+  "tags": [],
+  "isNSFW": false
+}

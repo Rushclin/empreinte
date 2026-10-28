@@ -1,0 +1,10 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "LottieFiles",
+  "url": "https://lottiefiles.com/{}",
+  "urlMain": "https://lottiefiles.com/",
+  "errorType": "status_code",
+  "username_claimed": "lottiefiles",
+  "tags": [],
+  "isNSFW": false
+}

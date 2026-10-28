@@ -1,0 +1,11 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "Steam Community (Group)",
+  "url": "https://steamcommunity.com/groups/{}",
+  "urlMain": "https://steamcommunity.com/",
+  "errorType": "message",
+  "errorMsg": "No group could be retrieved for the given URL",
+  "username_claimed": "blue",
+  "tags": [],
+  "isNSFW": false
+}

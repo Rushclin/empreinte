@@ -1,0 +1,11 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "Nightbot",
+  "url": "https://nightbot.tv/t/{}/commands",
+  "urlMain": "https://nightbot.tv/",
+  "urlProbe": "https://api.nightbot.tv/1/channels/t/{}",
+  "errorType": "status_code",
+  "username_claimed": "green",
+  "tags": [],
+  "isNSFW": false
+}

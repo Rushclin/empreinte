@@ -1,0 +1,11 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "Itemfix",
+  "url": "https://www.itemfix.com/c/{}",
+  "urlMain": "https://www.itemfix.com/",
+  "errorType": "message",
+  "errorMsg": "<title>ItemFix - Channel: </title>",
+  "username_claimed": "blue",
+  "tags": [],
+  "isNSFW": false
+}

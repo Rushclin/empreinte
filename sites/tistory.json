@@ -1,0 +1,10 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "tistory",
+  "url": "https://{}.tistory.com/",
+  "urlMain": "https://www.tistory.com/",
+  "errorType": "status_code",
+  "username_claimed": "notice",
+  "tags": [],
+  "isNSFW": false
+}

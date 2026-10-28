@@ -1,0 +1,59 @@
+{
+  "name": "@empreinte/core",
+  "version": "0.1.0",
+  "description": "Detection engine of Empreinte: find where a username exists across hundreds of websites.",
+  "license": "MIT",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rushclin/empreinte.git",
+    "directory": "packages/core"
+  },
+  "keywords": [
+    "osint",
+    "username",
+    "sherlock",
+    "footprint",
+    "social-media"
+  ],
+  "engines": {
+    "node": ">=20.18.1"
+  },
+  "sideEffects": false,
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./sites.json": "./data/sites.json",
+    "./package.json": "./package.json"
+  },
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist",
+    "data",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "p-limit": "^7.3.3",
+    "undici": "^7.30.1",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "tsup": "^9.0.0"
+  },
+  "homepage": "https://github.com/Rushclin/empreinte#readme",
+  "bugs": "https://github.com/Rushclin/empreinte/issues",
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  }
+}

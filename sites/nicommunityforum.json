@@ -1,0 +1,11 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "NICommunityForum",
+  "url": "https://community.native-instruments.com/profile/{}",
+  "urlMain": "https://www.native-instruments.com/forum/",
+  "errorType": "message",
+  "errorMsg": "The page you were looking for could not be found.",
+  "username_claimed": "jambert",
+  "tags": [],
+  "isNSFW": false
+}

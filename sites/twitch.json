@@ -1,0 +1,11 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "Twitch",
+  "url": "https://www.twitch.tv/{}",
+  "urlMain": "https://www.twitch.tv",
+  "errorType": "message",
+  "errorMsg": "content='Twitch is the world&#39;s leading video platform and community for gamers.'",
+  "username_claimed": "xqc",
+  "tags": ["gaming", "video"],
+  "isNSFW": false
+}

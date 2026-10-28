@@ -1,0 +1,10 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "livelib",
+  "url": "https://www.livelib.ru/reader/{}",
+  "urlMain": "https://www.livelib.ru/",
+  "errorType": "status_code",
+  "username_claimed": "blue",
+  "tags": [],
+  "isNSFW": false
+}

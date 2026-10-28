@@ -1,0 +1,11 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "pr0gramm",
+  "url": "https://pr0gramm.com/user/{}",
+  "urlMain": "https://pr0gramm.com/",
+  "urlProbe": "https://pr0gramm.com/api/profile/info?name={}",
+  "errorType": "status_code",
+  "username_claimed": "cha0s",
+  "tags": [],
+  "isNSFW": false
+}

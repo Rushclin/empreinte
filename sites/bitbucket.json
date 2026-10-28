@@ -1,0 +1,12 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "Bitbucket",
+  "url": "https://bitbucket.org/{}/",
+  "urlMain": "https://bitbucket.org/",
+  "urlProbe": "https://api.bitbucket.org/2.0/workspaces/{}",
+  "errorType": "status_code",
+  "regexCheck": "^[a-zA-Z0-9-_]{1,30}$",
+  "username_claimed": "atlassian",
+  "tags": ["dev"],
+  "isNSFW": false
+}

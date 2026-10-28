@@ -1,0 +1,10 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "geocaching",
+  "url": "https://www.geocaching.com/p/default.aspx?u={}",
+  "urlMain": "https://www.geocaching.com/",
+  "errorType": "status_code",
+  "username_claimed": "blue",
+  "tags": [],
+  "isNSFW": false
+}

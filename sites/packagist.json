@@ -1,0 +1,10 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "Packagist",
+  "url": "https://packagist.org/packages/{}/",
+  "urlMain": "https://packagist.org/",
+  "errorType": "response_url",
+  "username_claimed": "psr",
+  "tags": ["dev"],
+  "isNSFW": false
+}

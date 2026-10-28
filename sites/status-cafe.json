@@ -1,0 +1,11 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "Status Cafe",
+  "url": "https://status.cafe/users/{}",
+  "urlMain": "https://status.cafe/",
+  "errorType": "message",
+  "errorMsg": "Page Not Found",
+  "username_claimed": "blue",
+  "tags": [],
+  "isNSFW": false
+}

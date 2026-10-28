@@ -1,0 +1,12 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "Wordnik",
+  "url": "https://www.wordnik.com/users/{}",
+  "urlMain": "https://www.wordnik.com/",
+  "errorType": "message",
+  "errorMsg": "Page Not Found",
+  "regexCheck": "^[a-zA-Z0-9_.+-]{1,40}$",
+  "username_claimed": "blue",
+  "tags": [],
+  "isNSFW": false
+}

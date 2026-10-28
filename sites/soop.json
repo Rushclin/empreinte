@@ -1,0 +1,11 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "SOOP",
+  "url": "https://www.sooplive.co.kr/station/{}",
+  "urlMain": "https://www.sooplive.co.kr/",
+  "urlProbe": "https://api-channel.sooplive.co.kr/v1.1/channel/{}/station",
+  "errorType": "status_code",
+  "username_claimed": "udkn",
+  "tags": [],
+  "isNSFW": false
+}

@@ -1,0 +1,11 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "Eintracht Frankfurt Forum",
+  "url": "https://community.eintracht.de/fans/{}",
+  "urlMain": "https://community.eintracht.de/",
+  "errorType": "status_code",
+  "regexCheck": "^[^.]*?$",
+  "username_claimed": "mmammu",
+  "tags": [],
+  "isNSFW": false
+}

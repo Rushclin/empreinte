@@ -1,0 +1,10 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "mastodon.xyz",
+  "url": "https://mastodon.xyz/@{}",
+  "urlMain": "https://mastodon.xyz/",
+  "errorType": "status_code",
+  "username_claimed": "TheKinrar",
+  "tags": [],
+  "isNSFW": false
+}

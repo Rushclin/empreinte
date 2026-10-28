@@ -1,0 +1,11 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "Pepperdeals",
+  "url": "https://www.pepperdeals.se/profile/{}",
+  "urlMain": "https://www.pepperdeals.se/",
+  "errorType": "status_code",
+  "username_claimed": "Mark",
+  "request_method": "GET",
+  "tags": [],
+  "isNSFW": false
+}

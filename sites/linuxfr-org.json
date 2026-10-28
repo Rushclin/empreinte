@@ -1,0 +1,10 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "LinuxFR.org",
+  "url": "https://linuxfr.org/users/{}",
+  "urlMain": "https://linuxfr.org/",
+  "errorType": "status_code",
+  "username_claimed": "pylapp",
+  "tags": [],
+  "isNSFW": false
+}

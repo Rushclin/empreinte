@@ -1,0 +1,10 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "HackerSploit",
+  "url": "https://forum.hackersploit.org/u/{}",
+  "urlMain": "https://forum.hackersploit.org/",
+  "errorType": "status_code",
+  "username_claimed": "hackersploit",
+  "tags": [],
+  "isNSFW": false
+}

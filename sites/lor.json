@@ -1,0 +1,10 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "LOR",
+  "url": "https://www.linux.org.ru/people/{}/profile",
+  "urlMain": "https://linux.org.ru/",
+  "errorType": "status_code",
+  "username_claimed": "red",
+  "tags": [],
+  "isNSFW": false
+}

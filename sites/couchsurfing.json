@@ -1,0 +1,10 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "couchsurfing",
+  "url": "https://www.couchsurfing.com/people/{}",
+  "urlMain": "https://www.couchsurfing.com/",
+  "errorType": "status_code",
+  "username_claimed": "blue",
+  "tags": [],
+  "isNSFW": false
+}

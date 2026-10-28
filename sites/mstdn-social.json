@@ -1,0 +1,10 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "mstdn.social",
+  "url": "https://mstdn.social/@{}",
+  "urlMain": "https://mstdn.social/",
+  "errorType": "status_code",
+  "username_claimed": "MagicLike",
+  "tags": [],
+  "isNSFW": false
+}

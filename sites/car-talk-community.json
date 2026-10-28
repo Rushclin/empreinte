@@ -1,0 +1,10 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "Car Talk Community",
+  "url": "https://community.cartalk.com/u/{}/summary",
+  "urlMain": "https://community.cartalk.com/",
+  "errorType": "status_code",
+  "username_claimed": "always_fixing",
+  "tags": [],
+  "isNSFW": false
+}

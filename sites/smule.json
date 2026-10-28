@@ -1,0 +1,11 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "Smule",
+  "url": "https://www.smule.com/{}",
+  "urlMain": "https://www.smule.com/",
+  "errorType": "message",
+  "errorMsg": "Smule | Page Not Found (404)",
+  "username_claimed": "blue",
+  "tags": [],
+  "isNSFW": false
+}

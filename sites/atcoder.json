@@ -1,0 +1,10 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "Atcoder",
+  "url": "https://atcoder.jp/users/{}",
+  "urlMain": "https://atcoder.jp/",
+  "errorType": "status_code",
+  "username_claimed": "ksun48",
+  "tags": [],
+  "isNSFW": false
+}

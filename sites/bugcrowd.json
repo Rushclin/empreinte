@@ -1,0 +1,10 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "BugCrowd",
+  "url": "https://bugcrowd.com/{}",
+  "urlMain": "https://bugcrowd.com/",
+  "errorType": "status_code",
+  "username_claimed": "ppfeister",
+  "tags": [],
+  "isNSFW": false
+}

@@ -1,0 +1,11 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "HudsonRock",
+  "url": "https://cavalier.hudsonrock.com/api/json/v2/osint-tools/search-by-username?username={}",
+  "urlMain": "https://hudsonrock.com",
+  "errorType": "message",
+  "errorMsg": "This username is not associated",
+  "username_claimed": "testadmin",
+  "tags": [],
+  "isNSFW": false
+}

@@ -1,0 +1,10 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "Hugging Face",
+  "url": "https://huggingface.co/{}",
+  "urlMain": "https://huggingface.co/",
+  "errorType": "status_code",
+  "username_claimed": "Pasanlaksitha",
+  "tags": ["dev", "ai"],
+  "isNSFW": false
+}

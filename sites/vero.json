@@ -1,0 +1,12 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "Vero",
+  "url": "https://vero.co/{}",
+  "urlMain": "https://vero.co/",
+  "errorType": ["message", "status_code"],
+  "errorMsg": "Not Found",
+  "username_claimed": "blue",
+  "request_method": "GET",
+  "tags": [],
+  "isNSFW": false
+}

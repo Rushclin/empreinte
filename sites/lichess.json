@@ -1,0 +1,12 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "Lichess",
+  "url": "https://lichess.org/@/{}",
+  "urlMain": "https://lichess.org",
+  "urlProbe": "https://lichess.org/api/user/{}",
+  "errorType": "status_code",
+  "regexCheck": "^[a-zA-Z0-9][a-zA-Z0-9_-]{0,28}[a-zA-Z0-9]$",
+  "username_claimed": "thibault",
+  "tags": ["gaming"],
+  "isNSFW": false
+}

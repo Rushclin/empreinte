@@ -1,0 +1,10 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "Bezuzyteczna",
+  "url": "https://bezuzyteczna.pl/uzytkownicy/{}",
+  "urlMain": "https://bezuzyteczna.pl",
+  "errorType": "status_code",
+  "username_claimed": "Jackson",
+  "tags": [],
+  "isNSFW": false
+}

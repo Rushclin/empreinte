@@ -1,0 +1,11 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "OpenStreetMap",
+  "url": "https://www.openstreetmap.org/user/{}",
+  "urlMain": "https://www.openstreetmap.org/",
+  "errorType": "status_code",
+  "regexCheck": "^[^.]*?$",
+  "username_claimed": "blue",
+  "tags": [],
+  "isNSFW": false
+}

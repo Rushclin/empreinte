@@ -1,0 +1,11 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "Blitz Tactics",
+  "url": "https://blitztactics.com/{}",
+  "urlMain": "https://blitztactics.com/",
+  "errorType": "message",
+  "errorMsg": "That page doesn't exist",
+  "username_claimed": "Lance5500",
+  "tags": [],
+  "isNSFW": false
+}

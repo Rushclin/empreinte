@@ -1,0 +1,10 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "MyAnimeList",
+  "url": "https://myanimelist.net/profile/{}",
+  "urlMain": "https://myanimelist.net/",
+  "errorType": "status_code",
+  "username_claimed": "blue",
+  "tags": [],
+  "isNSFW": false
+}

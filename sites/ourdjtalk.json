@@ -1,0 +1,11 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "OurDJTalk",
+  "url": "https://ourdjtalk.com/members?username={}",
+  "urlMain": "https://ourdjtalk.com/",
+  "errorType": "message",
+  "errorMsg": "The specified member cannot be found",
+  "username_claimed": "steve",
+  "tags": [],
+  "isNSFW": false
+}

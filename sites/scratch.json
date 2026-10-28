@@ -1,0 +1,10 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "Scratch",
+  "url": "https://scratch.mit.edu/users/{}",
+  "urlMain": "https://scratch.mit.edu/",
+  "errorType": "status_code",
+  "username_claimed": "griffpatch",
+  "tags": [],
+  "isNSFW": false
+}

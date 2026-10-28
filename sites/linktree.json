@@ -1,0 +1,12 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "Linktree",
+  "url": "https://linktr.ee/{}",
+  "urlMain": "https://linktr.ee/",
+  "errorType": "message",
+  "errorMsg": "\"statusCode\":404",
+  "regexCheck": "^[\\w\\.]{2,30}$",
+  "username_claimed": "anne",
+  "tags": ["social"],
+  "isNSFW": false
+}

@@ -1,0 +1,11 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "Typeracer",
+  "url": "https://data.typeracer.com/pit/profile?user={}",
+  "urlMain": "https://typeracer.com",
+  "errorType": "message",
+  "errorMsg": "Profile Not Found",
+  "username_claimed": "blue",
+  "tags": [],
+  "isNSFW": false
+}

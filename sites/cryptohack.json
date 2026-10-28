@@ -1,0 +1,10 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "CryptoHack",
+  "url": "https://cryptohack.org/user/{}/",
+  "urlMain": "https://cryptohack.org/",
+  "errorType": "response_url",
+  "username_claimed": "blue",
+  "tags": [],
+  "isNSFW": false
+}

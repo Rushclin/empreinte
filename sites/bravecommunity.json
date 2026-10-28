@@ -1,0 +1,10 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "BraveCommunity",
+  "url": "https://community.brave.com/u/{}/",
+  "urlMain": "https://community.brave.com/",
+  "errorType": "status_code",
+  "username_claimed": "blue",
+  "tags": [],
+  "isNSFW": false
+}

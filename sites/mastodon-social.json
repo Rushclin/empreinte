@@ -1,0 +1,10 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "Mastodon.social",
+  "url": "https://mastodon.social/@{}",
+  "urlMain": "https://mastodon.social/",
+  "errorType": "status_code",
+  "username_claimed": "Gargron",
+  "tags": ["social"],
+  "isNSFW": false
+}

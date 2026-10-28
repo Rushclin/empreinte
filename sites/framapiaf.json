@@ -1,0 +1,11 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "Framapiaf",
+  "url": "https://framapiaf.org/@{}",
+  "urlMain": "https://framapiaf.org",
+  "errorType": "status_code",
+  "regexCheck": "^[a-zA-Z0-9_]{1,30}$",
+  "username_claimed": "pylapp",
+  "tags": [],
+  "isNSFW": false
+}

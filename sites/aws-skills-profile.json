@@ -1,0 +1,11 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "AWS Skills Profile",
+  "url": "https://skillsprofile.skillbuilder.aws/user/{}/",
+  "urlMain": "https://skillsprofile.skillbuilder.aws",
+  "errorType": "message",
+  "errorMsg": "shareProfileAccepted\":false",
+  "username_claimed": "mayank04pant",
+  "tags": [],
+  "isNSFW": false
+}

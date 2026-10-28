@@ -1,0 +1,12 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "VirusTotal",
+  "url": "https://www.virustotal.com/gui/user/{}",
+  "urlMain": "https://www.virustotal.com/",
+  "urlProbe": "https://www.virustotal.com/ui/users/{}/avatar",
+  "errorType": "status_code",
+  "username_claimed": "blue",
+  "request_method": "GET",
+  "tags": [],
+  "isNSFW": false
+}

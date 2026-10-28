@@ -1,0 +1,10 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "Icons8 Community",
+  "url": "https://community.icons8.com/u/{}/summary",
+  "urlMain": "https://community.icons8.com/",
+  "errorType": "status_code",
+  "username_claimed": "thefourCraft",
+  "tags": [],
+  "isNSFW": false
+}

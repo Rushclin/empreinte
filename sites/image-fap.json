@@ -1,0 +1,11 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "Image Fap",
+  "url": "https://www.imagefap.com/profile/{}",
+  "urlMain": "https://www.imagefap.com/",
+  "errorType": "message",
+  "errorMsg": "Not found",
+  "username_claimed": "blue",
+  "tags": [],
+  "isNSFW": true
+}

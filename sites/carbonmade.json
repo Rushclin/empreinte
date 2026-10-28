@@ -1,0 +1,11 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "Carbonmade",
+  "url": "https://{}.carbonmade.com",
+  "urlMain": "https://carbonmade.com/",
+  "errorType": "response_url",
+  "regexCheck": "^[\\w@-]+?$",
+  "username_claimed": "jenny",
+  "tags": [],
+  "isNSFW": false
+}

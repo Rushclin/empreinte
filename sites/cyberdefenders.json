@@ -1,0 +1,12 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "CyberDefenders",
+  "url": "https://cyberdefenders.org/p/{}",
+  "urlMain": "https://cyberdefenders.org/",
+  "errorType": "status_code",
+  "regexCheck": "^[^\\/:*?\"<>|@]{3,50}$",
+  "username_claimed": "mlohn",
+  "request_method": "GET",
+  "tags": [],
+  "isNSFW": false
+}

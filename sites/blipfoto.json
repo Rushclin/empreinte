@@ -1,0 +1,10 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "Blipfoto",
+  "url": "https://www.blipfoto.com/{}",
+  "urlMain": "https://www.blipfoto.com/",
+  "errorType": "status_code",
+  "username_claimed": "blue",
+  "tags": [],
+  "isNSFW": false
+}

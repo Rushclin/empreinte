@@ -1,0 +1,10 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "Joplin Forum",
+  "url": "https://discourse.joplinapp.org/u/{}",
+  "urlMain": "https://discourse.joplinapp.org/",
+  "errorType": "status_code",
+  "username_claimed": "laurent",
+  "tags": [],
+  "isNSFW": false
+}

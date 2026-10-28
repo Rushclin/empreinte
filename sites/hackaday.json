@@ -1,0 +1,10 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "Hackaday",
+  "url": "https://hackaday.io/{}",
+  "urlMain": "https://hackaday.io/",
+  "errorType": "status_code",
+  "username_claimed": "adam",
+  "tags": [],
+  "isNSFW": false
+}

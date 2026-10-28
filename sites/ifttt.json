@@ -1,0 +1,11 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "IFTTT",
+  "url": "https://www.ifttt.com/p/{}",
+  "urlMain": "https://www.ifttt.com/",
+  "errorType": "status_code",
+  "regexCheck": "^[A-Za-z0-9]{3,35}$",
+  "username_claimed": "blue",
+  "tags": [],
+  "isNSFW": false
+}

@@ -1,0 +1,13 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "Chess.com",
+  "url": "https://www.chess.com/member/{}",
+  "urlMain": "https://www.chess.com/",
+  "urlProbe": "https://www.chess.com/callback/user/valid?username={}",
+  "errorType": "message",
+  "errorMsg": "Username is valid",
+  "regexCheck": "^[a-zA-Z0-9_]{3,25}$",
+  "username_claimed": "blue",
+  "tags": ["gaming"],
+  "isNSFW": false
+}

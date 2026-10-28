@@ -1,0 +1,11 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "Cplusplus",
+  "url": "https://cplusplus.com/user/{}",
+  "urlMain": "https://cplusplus.com",
+  "errorType": "message",
+  "errorMsg": "<title>404 Page Not Found</title>",
+  "username_claimed": "mbozzi",
+  "tags": [],
+  "isNSFW": false
+}

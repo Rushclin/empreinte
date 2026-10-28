@@ -1,0 +1,12 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "Platzi",
+  "url": "https://platzi.com/p/{}/",
+  "urlMain": "https://platzi.com/",
+  "errorType": "status_code",
+  "errorCode": 404,
+  "username_claimed": "freddier",
+  "request_method": "GET",
+  "tags": [],
+  "isNSFW": false
+}

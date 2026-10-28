@@ -1,0 +1,10 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "Arduino Forum",
+  "url": "https://forum.arduino.cc/u/{}/summary",
+  "urlMain": "https://forum.arduino.cc/",
+  "errorType": "status_code",
+  "username_claimed": "system",
+  "tags": [],
+  "isNSFW": false
+}

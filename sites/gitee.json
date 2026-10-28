@@ -1,0 +1,10 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "Gitee",
+  "url": "https://gitee.com/{}",
+  "urlMain": "https://gitee.com/",
+  "errorType": "status_code",
+  "username_claimed": "wizzer",
+  "tags": [],
+  "isNSFW": false
+}

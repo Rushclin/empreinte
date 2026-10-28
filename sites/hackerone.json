@@ -1,0 +1,11 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "HackerOne",
+  "url": "https://hackerone.com/{}",
+  "urlMain": "https://hackerone.com/",
+  "errorType": "message",
+  "errorMsg": "Page not found",
+  "username_claimed": "stok",
+  "tags": ["security"],
+  "isNSFW": false
+}

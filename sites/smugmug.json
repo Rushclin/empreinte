@@ -1,0 +1,11 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "SmugMug",
+  "url": "https://{}.smugmug.com",
+  "urlMain": "https://smugmug.com",
+  "errorType": "status_code",
+  "regexCheck": "^[a-zA-Z]{1,35}$",
+  "username_claimed": "winchester",
+  "tags": [],
+  "isNSFW": false
+}

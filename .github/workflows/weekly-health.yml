@@ -1,0 +1,55 @@
+name: Weekly site health
+
+on:
+  schedule:
+    - cron: "0 6 * * 1" # Mondays at 06:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  health:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+
+      - name: Check every site
+        id: check
+        run: |
+          if pnpm -s check-site --all --markdown > check.md; then
+            echo "failed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "failed=true" >> "$GITHUB_OUTPUT"
+          fi
+          cat check.md >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Open, update or close the health issue
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          FAILED: ${{ steps.check.outputs.failed }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          gh label create site-health --color B60205 --description "Weekly site health report" --force
+          {
+            echo "Automated weekly check of every site ([run]($RUN_URL)). Sites marked ❌ need a fix: see [CONTRIBUTING.md](${{ github.server_url }}/${{ github.repository }}/blob/main/CONTRIBUTING.md)."
+            echo
+            cat check.md
+          } > body.md
+          issue=$(gh issue list --label site-health --state open --json number --jq '.[0].number')
+          if [ "$FAILED" = "true" ]; then
+            if [ -n "$issue" ]; then
+              gh issue edit "$issue" --body-file body.md
+            else
+              gh issue create --title "Broken sites (weekly health check)" --label site-health --body-file body.md
+            fi
+          elif [ -n "$issue" ]; then
+            gh issue close "$issue" --comment "All sites passed the weekly check ($RUN_URL)."
+          fi

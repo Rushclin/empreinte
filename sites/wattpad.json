@@ -1,0 +1,11 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "Wattpad",
+  "url": "https://www.wattpad.com/user/{}",
+  "urlMain": "https://www.wattpad.com/",
+  "urlProbe": "https://www.wattpad.com/api/v3/users/{}/",
+  "errorType": "status_code",
+  "username_claimed": "Dogstho7951",
+  "tags": ["blogging"],
+  "isNSFW": false
+}

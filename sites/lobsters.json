@@ -1,0 +1,11 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "Lobsters",
+  "url": "https://lobste.rs/u/{}",
+  "urlMain": "https://lobste.rs/",
+  "errorType": "status_code",
+  "regexCheck": "[A-Za-z0-9][A-Za-z0-9_-]{0,24}",
+  "username_claimed": "jcs",
+  "tags": [],
+  "isNSFW": false
+}

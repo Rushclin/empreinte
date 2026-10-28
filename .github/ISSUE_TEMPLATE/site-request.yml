@@ -1,0 +1,38 @@
+name: Site request
+description: Ask for a new website to be supported
+title: "[Site request]: "
+labels: ["site-request"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Adding a site yourself takes a few minutes: see [CONTRIBUTING.md](https://github.com/Rushclin/empreinte/blob/main/CONTRIBUTING.md).
+  - type: input
+    id: site
+    attributes:
+      label: Site name and URL
+      placeholder: Example — https://example.com
+    validations:
+      required: true
+  - type: input
+    id: profile
+    attributes:
+      label: Profile URL pattern
+      description: What a profile URL looks like, with a real existing username.
+      placeholder: https://example.com/users/alice
+    validations:
+      required: true
+  - type: textarea
+    id: missing
+    attributes:
+      label: What happens for a username that does not exist?
+      description: HTTP 404, redirect to another page, an error message in the page…
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checks
+      options:
+        - label: I searched the existing sites and issues.
+          required: true
+        - label: Profiles on this site are public (no login needed to see them).
+          required: true

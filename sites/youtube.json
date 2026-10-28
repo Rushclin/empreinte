@@ -1,0 +1,10 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "YouTube",
+  "url": "https://www.youtube.com/@{}",
+  "urlMain": "https://www.youtube.com/",
+  "errorType": "status_code",
+  "username_claimed": "youtube",
+  "tags": ["video"],
+  "isNSFW": false
+}

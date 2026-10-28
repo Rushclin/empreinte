@@ -1,0 +1,10 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "LushStories",
+  "url": "https://www.lushstories.com/profile/{}",
+  "urlMain": "https://www.lushstories.com/",
+  "errorType": "response_url",
+  "username_claimed": "chris_brown",
+  "tags": [],
+  "isNSFW": true
+}

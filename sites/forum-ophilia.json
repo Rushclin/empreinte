@@ -1,0 +1,11 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "Forum Ophilia",
+  "url": "https://www.forumophilia.com/profile.php?mode=viewprofile&u={}",
+  "urlMain": "https://www.forumophilia.com/",
+  "errorType": "message",
+  "errorMsg": "that user does not exist",
+  "username_claimed": "bob",
+  "tags": [],
+  "isNSFW": true
+}

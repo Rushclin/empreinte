@@ -1,0 +1,10 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "kwork",
+  "url": "https://kwork.ru/user/{}",
+  "urlMain": "https://www.kwork.ru/",
+  "errorType": "status_code",
+  "username_claimed": "blue",
+  "tags": [],
+  "isNSFW": false
+}

@@ -1,0 +1,39 @@
+name: Bug report
+description: Something does not work (CLI, website, engine)
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: Include the command or the steps to reproduce.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect?
+    validations:
+      required: true
+  - type: dropdown
+    id: where
+    attributes:
+      label: Component
+      options:
+        - CLI (empreinte)
+        - Website
+        - "@empreinte/core"
+        - Scripts / CI
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version and environment
+      placeholder: empreinte 0.1.0, Node.js 22, macOS
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs
+      render: text

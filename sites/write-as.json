@@ -1,0 +1,10 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "write.as",
+  "url": "https://write.as/{}",
+  "urlMain": "https://write.as",
+  "errorType": "status_code",
+  "username_claimed": "pylapp",
+  "tags": [],
+  "isNSFW": false
+}

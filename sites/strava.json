@@ -1,0 +1,11 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "Strava",
+  "url": "https://www.strava.com/athletes/{}",
+  "urlMain": "https://www.strava.com/",
+  "errorType": "status_code",
+  "regexCheck": "^[^.]*?$",
+  "username_claimed": "blue",
+  "tags": [],
+  "isNSFW": false
+}

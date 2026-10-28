@@ -1,0 +1,11 @@
+{
+  "$schema": "../schema/site.schema.json",
+  "name": "Preisjaeger",
+  "url": "https://www.preisjaeger.at/profile/{}",
+  "urlMain": "https://www.preisjaeger.at/",
+  "errorType": "status_code",
+  "username_claimed": "Stefan",
+  "request_method": "GET",
+  "tags": [],
+  "isNSFW": false
+}
